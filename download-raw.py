@@ -82,11 +82,18 @@ def decrypt_repeatedly():
 		data = decryptable_queue.get()
 		if data is SystemExit:
 			break
-		name, crc, encrypted, data = data
-		if crc is not None and zlib.crc32(data) != crc:
-			with print_lock:
-				print(f'Mismatched CRC for {name}:', file=sys.stderr)
-				continue
+		name, crc, encrypted, data, resource, resource_kind, split, attempt = data
+		if crc is not None:
+			try:
+				if zlib.crc32(data) != crc:
+					if attempt >= 5:
+						with print_lock:
+							print(f'Mismatched CRC for {name}', file=sys.stderr)
+					else:
+						downloadable_queue.put((resource, resource_kind, encrypted, split, attempt + 1))
+					continue
+			finally:
+				downloadable_queue.task_done()
 		try:
 			if encrypted:
 				data = decrypt_xor(data)
@@ -114,14 +121,14 @@ for i in range(n_decrypting_threads):
 	t.start()
 
 n_downloading_threads = 64
-downloadable_queue = queue.Queue(64)
+downloadable_queue = queue.Queue()
 downloading_threads = []
 def download_repeatedly():
 	while True:
 		resource = downloadable_queue.get()
 		if resource is SystemExit:
 			break
-		resource, resource_kind, encrypted, split = resource
+		resource, resource_kind, encrypted, split, attempt = resource
 		downloaded_name = name = posixpath.join(resource_kind, resource['name'])
 		try:
 			dirname = posixpath.dirname(resource['name'])
@@ -138,11 +145,15 @@ def download_repeatedly():
 						raise
 				data = b''.join(data)
 		except BaseException as e:
-			with print_lock:
-				print(f'Failed to download {downloaded_name}:', file=sys.stderr)
-				traceback.print_exc()
+			if attempt >= 5:
+				with print_lock:
+					print(f'Failed to download {downloaded_name}:', file=sys.stderr)
+					traceback.print_exc()
+			else:
+				downloadable_queue.put((resource, resource_kind, encrypted, split, attempt + 1))
+			downloadable_queue.task_done()
 		else:
-			decryptable_queue.put((name, resource['crc'], encrypted, data))
+			decryptable_queue.put((name, resource['crc'], encrypted, data, resource, resource_kind, split, attempt))
 for i in range(n_downloading_threads):
 	t = threading.Thread(target=download_repeatedly, daemon=True)
 	downloading_threads.append(t)
@@ -203,7 +214,7 @@ for resource_kind, encrypted, split in resource_kinds:
 					continue
 			except OSError:
 				pass
-		downloadable_queue.put((resource, resource_kind, encrypted, split))
+		downloadable_queue.put((resource, resource_kind, encrypted, split, 1))
 
 	path = os.path.join(lang, resource_kind, 'manifest')
 	os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -226,11 +237,12 @@ while True:
 	else:
 		opening_movie_data.append(data)
 	if len(data) < 4000000:
-		decryptable_queue.put(('builtin/m', None, False, b''.join(opening_movie_data)))
+		decryptable_queue.put(('builtin/m', None, False, b''.join(opening_movie_data), None, None, None, 1))
 		break
 	i += 1
 del opening_movie_data
 
+downloadable_queue.join()
 for t in downloading_threads:
 	downloadable_queue.put(SystemExit)
 for t in downloading_threads:
