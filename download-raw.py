@@ -210,7 +210,6 @@ for resource_kind, encrypted, split in resource_kinds:
 	with open(path + '.part', 'w', encoding='utf-8') as file:
 		json.dump(manifest, file, ensure_ascii=False, indent='\t')
 		file.write('\n')
-	os.replace(path + '.part', path)
 
 i = 1
 opening_movie_data = []
@@ -241,6 +240,10 @@ for t in decrypting_threads:
 	decryptable_queue.put(SystemExit)
 for t in decrypting_threads:
 	t.join()
+
+for resource_kind, encrypted, split in resource_kinds:
+	path = os.path.join(lang, resource_kind, 'manifest')
+	os.replace(path + '.part', path)
 
 path = 'decrypted.blake2b'
 with open(path + '.part', 'w', encoding='utf-8') as file:
