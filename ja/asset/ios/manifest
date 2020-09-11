@@ -1,5 +1,5 @@
 {
-	"version": "2020-09-09 17:20:47",
+	"version": "2020-09-11 14:59:57",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -5734,6 +5734,13 @@
 			"hash": "998D116951F7796A5FD785B0DBC849C9",
 			"size": 294677,
 			"crc": 1439358461,
+			"dependencies": []
+		},
+		{
+			"name": "action/g010_c_unique_skill",
+			"hash": "D5EE92644309A66516BA7EE20DE69D9F",
+			"size": 169777,
+			"crc": 3989005103,
 			"dependencies": []
 		},
 		{
@@ -13028,8 +13035,8 @@
 		{
 			"name": "battle_scriptable_object/battle_effect_pattern",
 			"hash": "77A5BAD1D1B312F9161244F1FC424214",
-			"size": 1729663,
-			"crc": 881611586,
+			"size": 1729660,
+			"crc": 4005552423,
 			"dependencies": [
 				"effect/battle/buff_break",
 				"effect/battle/buff_cancel",
@@ -26685,6 +26692,41 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/icon/digimonface1280402",
+			"hash": "9064E7425821FBE38818894637F1F768",
+			"size": 28858,
+			"crc": 768332451,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1280403",
+			"hash": "37F2CA5DD97BEF79BB4D2746987ECBB1",
+			"size": 30245,
+			"crc": 1330782669,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1280404",
+			"hash": "B1E49A1BF2B7A879E1EBE7996745CDA2",
+			"size": 41646,
+			"crc": 950759846,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1280405",
+			"hash": "67EF2B5405A6828A723A7BD23091637F",
+			"size": 40533,
+			"crc": 97143226,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1280406",
+			"hash": "5B8D50356ED3DED24BBD3FA8DB26C152",
+			"size": 42046,
+			"crc": 704349062,
+			"dependencies": []
+		},
+		{
 			"name": "digimon/icon/digimonface1281402",
 			"hash": "FDFC57ECD62C8FDF57D93CC66E475DF3",
 			"size": 26045,
@@ -32728,6 +32770,15 @@
 			"hash": "5D7DFBBB9B2D87BBF444A46ACF32F8CC",
 			"size": 1634942,
 			"crc": 186615905,
+			"dependencies": [
+				"digimon/shadow/digimon_shadow"
+			]
+		},
+		{
+			"name": "digimon/model/g010_c",
+			"hash": "99AF0F10F5B5F539A26E18A7CEFA8317",
+			"size": 1387193,
+			"crc": 3311361104,
 			"dependencies": [
 				"digimon/shadow/digimon_shadow"
 			]
@@ -39219,6 +39270,34 @@
 			"hash": "90748FD5605E700C2873B33980A4FB46",
 			"size": 51689,
 			"crc": 319099807,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1280403",
+			"hash": "5EAA19206F2180606D02F016DD651A83",
+			"size": 62750,
+			"crc": 2726151081,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1280404",
+			"hash": "DDB2804DF5E9F97821699EC751839199",
+			"size": 78045,
+			"crc": 2231912302,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1280405",
+			"hash": "702B88D1D1DD9032507A87AC22B13083",
+			"size": 81691,
+			"crc": 2381516836,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1280406",
+			"hash": "A8754D4453672DA6B7DA7D93D2677A8A",
+			"size": 81024,
+			"crc": 74297178,
 			"dependencies": []
 		},
 		{
@@ -56518,6 +56597,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/skill/icon_unique_skill_g010_c",
+			"hash": "3AEBC91363B18ED299C23D279545D6C9",
+			"size": 34149,
+			"crc": 611196473,
+			"dependencies": []
+		},
+		{
 			"name": "icon/training/icontraining101",
 			"hash": "61FEF0662EB5DE568219D484B1883C7B",
 			"size": 7841,
@@ -56975,8 +57061,8 @@
 		{
 			"name": "login_bonus/g3436_login_bonus",
 			"hash": "EA096D491419A05C34907F682361A732",
-			"size": 1551583,
-			"crc": 3509981391,
+			"size": 1551747,
+			"crc": 3614050123,
 			"dependencies": []
 		},
 		{
@@ -57003,15 +57089,15 @@
 		{
 			"name": "login_bonus/g3750_g3752_login_bonus_1",
 			"hash": "9533CF383CB27BBE095FFF84AE6E8B6D",
-			"size": 2842290,
-			"crc": 2320646542,
+			"size": 3613872,
+			"crc": 2695931673,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3750_g3752_login_bonus_2",
 			"hash": "A06DF18B70FBD2864C2BCABE39680260",
-			"size": 2840399,
-			"crc": 3430197286,
+			"size": 3611641,
+			"crc": 3131951337,
 			"dependencies": []
 		},
 		{
@@ -59448,8 +59534,8 @@
 		{
 			"name": "raid_catalog/raid_catalog_top",
 			"hash": "7F20E23E8B1AEE0BA27CD59263F89AE5",
-			"size": 3056095,
-			"crc": 1802789796,
+			"size": 3056423,
+			"crc": 2091694074,
 			"dependencies": [
 				"quest/panel/storylist_raid001"
 			]
