@@ -1,5 +1,5 @@
 {
-	"version": "2021-01-08 19:32:49",
+	"version": "2021-01-14 19:14:48",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -1497,6 +1497,20 @@
 			"hash": "18C255B957857E2CF7BA1DA8F5422D6E",
 			"size": 107610,
 			"crc": 1160416426,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr117_friendship_skill",
+			"hash": "29362F688B648401D94CD1826ECA6FE3",
+			"size": 1195958,
+			"crc": 1015877773,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr117_unique_skill",
+			"hash": "4AF22A3FE45D54F9D9EF61A2922142CA",
+			"size": 257762,
+			"crc": 2137634281,
 			"dependencies": []
 		},
 		{
@@ -3128,6 +3142,27 @@
 			"hash": "CF2D25DA63B5974A7358087CCB39E46E",
 			"size": 107823,
 			"crc": 3842024052,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr400_b_friendship_skill",
+			"hash": "17AD26AC6175110B2A310945BF4D619E",
+			"size": 1088844,
+			"crc": 1093678117,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr400_b_unique_skill",
+			"hash": "A0B1BC79CB5E69446E54A66440CA0D8D",
+			"size": 141452,
+			"crc": 83878601,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr400_b_unique_skill_bce",
+			"hash": "8B1948B84419F524CAA9541858416F80",
+			"size": 143560,
+			"crc": 1009401230,
 			"dependencies": []
 		},
 		{
@@ -11744,6 +11779,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/banner631",
+			"hash": "D2B1FEE8B5E140A72808C930DD948F59",
+			"size": 48822,
+			"crc": 467450802,
+			"dependencies": []
+		},
+		{
 			"name": "banner/banner632",
 			"hash": "B925734DD608CA1D92D2D570C159D81F",
 			"size": 53049,
@@ -11807,6 +11849,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/banner642",
+			"hash": "F980FF636B3A92576C189B2F171D0429",
+			"size": 48545,
+			"crc": 982707605,
+			"dependencies": []
+		},
+		{
 			"name": "banner/banner647",
 			"hash": "15E7A579691B518857DFE651FF4D8883",
 			"size": 40661,
@@ -11821,10 +11870,24 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/bce_banner/bce_banner003",
+			"hash": "552A83B96996B85DA950FDD8E9689BD0",
+			"size": 229740,
+			"crc": 3989207588,
+			"dependencies": []
+		},
+		{
 			"name": "banner/bce_homebanner/bce_homebanner000",
 			"hash": "B9CAC7C829F5BFB9B213F14C1011C95B",
 			"size": 34439,
 			"crc": 1117700725,
+			"dependencies": []
+		},
+		{
+			"name": "banner/bce_homebanner/bce_homebanner001",
+			"hash": "A0C3D553944A14A7E84AC6C5829B6595",
+			"size": 33073,
+			"crc": 141920215,
 			"dependencies": []
 		},
 		{
@@ -13223,6 +13286,15 @@
 			]
 		},
 		{
+			"name": "battle_placement/bce_battle_placement_chr400",
+			"hash": "C747C9E11DBA8358C63A17E22E7A800D",
+			"size": 59747,
+			"crc": 3845459252,
+			"dependencies": [
+				"action/xlb_death_action"
+			]
+		},
+		{
 			"name": "battle_placement/quest_battle_placement",
 			"hash": "3A0FEC0A385AD002A0ADEC621B1A835D",
 			"size": 24134,
@@ -14533,6 +14605,13 @@
 			"hash": "A8E6CB23913943A750D35CEF89908D5F",
 			"size": 30702,
 			"crc": 4183720004,
+			"dependencies": []
+		},
+		{
+			"name": "bce/icon/bce_icon_chr400",
+			"hash": "D8D852240011373FE9A58CD7601237F5",
+			"size": 31014,
+			"crc": 944775252,
 			"dependencies": []
 		},
 		{
@@ -19309,6 +19388,13 @@
 			"hash": "8F7881425F8FD12894A637D00C3A24B3",
 			"size": 3044,
 			"crc": 2775404447,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/doticon/doticonchr117",
+			"hash": "CD3565B9F92DD33E65B10528386AD02A",
+			"size": 3149,
+			"crc": 3570889779,
 			"dependencies": []
 		},
 		{
@@ -28965,6 +29051,34 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/icon/digimonface1312502",
+			"hash": "33EE71393D403B39C1324CE4FA2ED1FD",
+			"size": 28793,
+			"crc": 581407141,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1312503",
+			"hash": "5D828622CC78B8AD71FCAA5A5270E42A",
+			"size": 37162,
+			"crc": 1445797330,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1312504",
+			"hash": "314ACD87E13286E81407340EC4F42648",
+			"size": 34228,
+			"crc": 3294951336,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1312505",
+			"hash": "70A53C793C6E780FB5929DFC54F58B74",
+			"size": 38061,
+			"crc": 3047924293,
+			"dependencies": []
+		},
+		{
 			"name": "digimon/icon/digimonface1314202",
 			"hash": "43B2F199168B2313A738763E9D4EAE2B",
 			"size": 35683,
@@ -28997,6 +29111,27 @@
 			"hash": "B09ED7199F10FED0B14BE38892E4D3D5",
 			"size": 27204,
 			"crc": 3643249291,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1315402",
+			"hash": "59D17B77298CC60D6016292BF8576ED8",
+			"size": 24176,
+			"crc": 2646824624,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1315403",
+			"hash": "4BF9BD106A9E60291AC3935287C9744C",
+			"size": 31729,
+			"crc": 764487013,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1315404",
+			"hash": "4DB7016650FA991DA31A5E431B8C4495",
+			"size": 39762,
+			"crc": 4115347655,
 			"dependencies": []
 		},
 		{
@@ -31545,6 +31680,15 @@
 			]
 		},
 		{
+			"name": "digimon/model/chr117",
+			"hash": "56E1AB3279EAB29ED79C4ADE8F3D97AA",
+			"size": 1399320,
+			"crc": 1669474774,
+			"dependencies": [
+				"digimon/shadow/digimon_shadow"
+			]
+		},
+		{
 			"name": "digimon/model/chr120",
 			"hash": "438D11155B2A05C60127FEB276ED9EE7",
 			"size": 722726,
@@ -32996,8 +33140,8 @@
 		{
 			"name": "digimon/model/chr400",
 			"hash": "27B3CD68EB0B39E70146DE7E75B62733",
-			"size": 1237487,
-			"crc": 2878921751,
+			"size": 1294140,
+			"crc": 3338639375,
 			"dependencies": [
 				"digimon/shadow/digimon_shadow"
 			]
@@ -42390,6 +42534,27 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/whole/digimonbody1312503",
+			"hash": "94FE24E5FF8BDF29073AA7D376241BEC",
+			"size": 44428,
+			"crc": 2032494793,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1312504",
+			"hash": "0B3593D7DBE17C070A2E1054F4023065",
+			"size": 55483,
+			"crc": 1331585367,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1312505",
+			"hash": "F481701DBC6315A035F0EA951BF03652",
+			"size": 50945,
+			"crc": 715988111,
+			"dependencies": []
+		},
+		{
 			"name": "digimon/whole/digimonbody1314203",
 			"hash": "F46AAE296343A2F9051FA79D9B918EE6",
 			"size": 50660,
@@ -42415,6 +42580,20 @@
 			"hash": "A6BFA3855523CA45483ED653B8555A8D",
 			"size": 74863,
 			"crc": 2837203111,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1315403",
+			"hash": "6363AE5E328803BF73281D8F01BB242E",
+			"size": 59372,
+			"crc": 4130663369,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1315404",
+			"hash": "BC349365B89FB7558B688497A9C53188",
+			"size": 59539,
+			"crc": 3389177311,
 			"dependencies": []
 		},
 		{
@@ -46125,6 +46304,13 @@
 			"hash": "A9F3E6ABFE82BD9B7BC5E79916D56C87",
 			"size": 189428,
 			"crc": 950861145,
+			"dependencies": []
+		},
+		{
+			"name": "gasha/top/gasha_asset_265",
+			"hash": "951C6929F317E747B417B7160965F73B",
+			"size": 193181,
+			"crc": 2345360097,
 			"dependencies": []
 		},
 		{
@@ -51608,6 +51794,34 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/item/equipment/iconequipment313424011",
+			"hash": "9557F49A0568B0D27F6AD2DA032D3CE3",
+			"size": 50075,
+			"crc": 2417500998,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment313434011",
+			"hash": "508442F026A649C7ED6EA05F5B4761B2",
+			"size": 50210,
+			"crc": 3418231546,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment313444011",
+			"hash": "6721E75DCD6C6EBCD0EDBAEB45468C9B",
+			"size": 48733,
+			"crc": 2141641101,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment313444021",
+			"hash": "DE3F9A64C28968D3CE8BD26D7EA82A7F",
+			"size": 48372,
+			"crc": 2068914475,
+			"dependencies": []
+		},
+		{
 			"name": "icon/item/equipment/iconequipment31401",
 			"hash": "734FBB49E2B5FA77ECF1197F820793DB",
 			"size": 34492,
@@ -51640,6 +51854,20 @@
 			"hash": "23FAA0EBB15E8C1F138C76ED06D3DBA7",
 			"size": 44111,
 			"crc": 140926770,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment317425001",
+			"hash": "1767CF159139BECC311D08AC24858EAA",
+			"size": 47030,
+			"crc": 4082152670,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment317435001",
+			"hash": "1D3129F679C6E59BC45771720F0FAD61",
+			"size": 47035,
+			"crc": 969888164,
 			"dependencies": []
 		},
 		{
@@ -54905,6 +55133,27 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/item/skillitem/icon_skillitem1023151",
+			"hash": "C56242544D5D1411B751CEDCE9AB2B2D",
+			"size": 30050,
+			"crc": 3477135989,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/skillitem/icon_skillitem1023152",
+			"hash": "47B6C3972A716B3C1EF1ACE5604A5D75",
+			"size": 35230,
+			"crc": 2958265147,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/skillitem/icon_skillitem1023153",
+			"hash": "7921102B0FF463D9597B7F8FEB77298D",
+			"size": 40394,
+			"crc": 1962970614,
+			"dependencies": []
+		},
+		{
 			"name": "icon/item/skillitem/icon_skillitem1030011",
 			"hash": "067B6CD75FD726F5D91BB7812501D3B9",
 			"size": 13804,
@@ -57635,6 +57884,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/shopprize/shopprize_pack285",
+			"hash": "3406DEC6ABDE39C0619D63EDBFDBBCAC",
+			"size": 31723,
+			"crc": 954784098,
+			"dependencies": []
+		},
+		{
 			"name": "icon/shopprize/shopprize_pack29",
 			"hash": "596F57F0A33CCD3D8D9870D5D70DC69E",
 			"size": 32024,
@@ -59861,6 +60117,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/skill/icon_unique_skill_chr117",
+			"hash": "6A0EEFAF41BD1DE623A16DA85D079339",
+			"size": 34842,
+			"crc": 1220072880,
+			"dependencies": []
+		},
+		{
 			"name": "icon/skill/icon_unique_skill_chr120",
 			"hash": "871744DD25D5F6E5B782546C485B734B",
 			"size": 34757,
@@ -60558,6 +60821,13 @@
 			"hash": "08FC2571FEECBE5D6B6E86A9E05526D6",
 			"size": 33271,
 			"crc": 946481333,
+			"dependencies": []
+		},
+		{
+			"name": "icon/skill/icon_unique_skill_chr400_b",
+			"hash": "CEBA3EA325F841D96962A4E6F04CA1AC",
+			"size": 35251,
+			"crc": 3252967242,
 			"dependencies": []
 		},
 		{
@@ -84889,8 +85159,8 @@
 		{
 			"name": "shop/skin/shop_skin001",
 			"hash": "37048E6553F7A33231E9409D88EB1B9C",
-			"size": 741671,
-			"crc": 87073554,
+			"size": 742327,
+			"crc": 2355853967,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg001_02",
 				"shop/tab/shopbannerbg001"
@@ -84899,8 +85169,8 @@
 		{
 			"name": "shop/skin/shop_skin002",
 			"hash": "0502677C9A9EE0C49AC6A02DAC633DA4",
-			"size": 741307,
-			"crc": 2496766296,
+			"size": 741971,
+			"crc": 4230481106,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg002_02",
 				"shop/tab/shopbannerbg002"
@@ -84909,8 +85179,8 @@
 		{
 			"name": "shop/skin/shop_skin003",
 			"hash": "99D7986E148AD9068654D9EA42D5AF57",
-			"size": 742345,
-			"crc": 1400139802,
+			"size": 742988,
+			"crc": 2196660866,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg003_02",
 				"shop/tab/shopbannerbg003"
@@ -84919,8 +85189,8 @@
 		{
 			"name": "shop/skin/shop_skin004",
 			"hash": "3B1B2E10D8052601CFF837CACECE4983",
-			"size": 741354,
-			"crc": 2806554267,
+			"size": 742025,
+			"crc": 4005152943,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg004_02",
 				"shop/tab/shopbannerbg004"
@@ -84929,8 +85199,8 @@
 		{
 			"name": "shop/skin/shop_skin005",
 			"hash": "717560A9C06DD03342557DDFAD6D4762",
-			"size": 741816,
-			"crc": 1145710569,
+			"size": 742426,
+			"crc": 1245476481,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg005_02",
 				"shop/tab/shopbannerbg005"
@@ -84939,8 +85209,8 @@
 		{
 			"name": "shop/skin/shop_skin006",
 			"hash": "B4D4E818E1C2F1FAEA73F4708D98160E",
-			"size": 743635,
-			"crc": 3895906766,
+			"size": 743873,
+			"crc": 1590964705,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg006_02",
 				"shop/tab/shopbannerbg006"
@@ -84949,8 +85219,8 @@
 		{
 			"name": "shop/skin/shop_skin007",
 			"hash": "B7CA2AB3F56EB819D14FD14B0A8DFF80",
-			"size": 783670,
-			"crc": 4019889734,
+			"size": 783223,
+			"crc": 1857683697,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg007_02",
 				"shop/tab/shopbannerbg007"
@@ -84959,8 +85229,8 @@
 		{
 			"name": "shop/skin/shop_skin008",
 			"hash": "727EB353A52A513CD24B286AB87445DF",
-			"size": 764253,
-			"crc": 378547423,
+			"size": 764554,
+			"crc": 1729820592,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg008_02",
 				"shop/tab/shopbannerbg008"
@@ -84969,8 +85239,8 @@
 		{
 			"name": "shop/skin/shop_skin009",
 			"hash": "EA3969D632A86F64EAD4756207B3EBF2",
-			"size": 716320,
-			"crc": 1766999619,
+			"size": 716877,
+			"crc": 240801031,
 			"dependencies": [
 				"shop/tab/shopbannerbg009"
 			]
@@ -84978,8 +85248,8 @@
 		{
 			"name": "shop/skin/shop_skin010",
 			"hash": "4CF1E64C06048A695D43222E252D5DF0",
-			"size": 742325,
-			"crc": 1576798057,
+			"size": 742976,
+			"crc": 3113073098,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg010_02",
 				"shop/tab/shopbannerbg010"
@@ -84988,8 +85258,8 @@
 		{
 			"name": "shop/skin/shop_skin011",
 			"hash": "3367814FF37D1E0D287F8269B02A3839",
-			"size": 724811,
-			"crc": 3154926250,
+			"size": 724322,
+			"crc": 4187575776,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg011_02"
 			]
@@ -84997,8 +85267,8 @@
 		{
 			"name": "shop/skin/shop_skin012",
 			"hash": "CF16034BF0575C7E4CE536E463DDD034",
-			"size": 702657,
-			"crc": 112611288,
+			"size": 702564,
+			"crc": 3039971099,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg012_02"
 			]
@@ -85006,8 +85276,8 @@
 		{
 			"name": "shop/skin/shop_skin013",
 			"hash": "FF422F714A106AD37C32A77AF48EFC36",
-			"size": 741229,
-			"crc": 1945254473,
+			"size": 741910,
+			"crc": 4168615580,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg013_02",
 				"shop/tab/shopbannerbg002"
@@ -85016,8 +85286,8 @@
 		{
 			"name": "shop/skin/shop_skin014",
 			"hash": "BD4B6ADC4EA6BBFABFE93B95DCC11097",
-			"size": 702618,
-			"crc": 3431771077,
+			"size": 702539,
+			"crc": 903249432,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg014_02"
 			]
@@ -85025,8 +85295,8 @@
 		{
 			"name": "shop/skin/shop_skin015",
 			"hash": "8EFA8D838CA9C56983832C5B8A23BFB5",
-			"size": 702544,
-			"crc": 3571523410,
+			"size": 702454,
+			"crc": 1589609016,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg015_02"
 			]
@@ -85034,8 +85304,8 @@
 		{
 			"name": "shop/skin/shop_skin016",
 			"hash": "CC6972AA7133A0AE099F910057CBAB5D",
-			"size": 726786,
-			"crc": 110652944,
+			"size": 726129,
+			"crc": 616935297,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg016_02"
 			]
@@ -85043,8 +85313,8 @@
 		{
 			"name": "shop/skin/shop_skin017",
 			"hash": "0D4586FD21B20E9CD6C826FD513D82E0",
-			"size": 726714,
-			"crc": 1714228646,
+			"size": 726092,
+			"crc": 4025596554,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg017_02"
 			]
@@ -85052,8 +85322,8 @@
 		{
 			"name": "shop/skin/shop_skin018",
 			"hash": "733675C277FDE5EE9BAF74DFD8CE316F",
-			"size": 726665,
-			"crc": 359919220,
+			"size": 726066,
+			"crc": 4132044116,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg018_02"
 			]
@@ -85061,8 +85331,8 @@
 		{
 			"name": "shop/skin/shop_skin019",
 			"hash": "3854573FD17498C5D84AC875D8D86487",
-			"size": 726747,
-			"crc": 522974297,
+			"size": 726117,
+			"crc": 3219907938,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg019_02"
 			]
@@ -85070,8 +85340,8 @@
 		{
 			"name": "shop/skin/shop_skin020",
 			"hash": "09E3B308DA187EC6D80CC31B87BDBF9B",
-			"size": 726721,
-			"crc": 657925340,
+			"size": 726141,
+			"crc": 537181591,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg020_02"
 			]
@@ -85079,8 +85349,8 @@
 		{
 			"name": "shop/skin/shop_skin021",
 			"hash": "155081BC9AF2979AD2DAC7683F568287",
-			"size": 726731,
-			"crc": 2631156537,
+			"size": 726136,
+			"crc": 3180016789,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg021_02"
 			]
@@ -85088,8 +85358,8 @@
 		{
 			"name": "shop/skin/shop_skin022",
 			"hash": "C7B36729937AB01D566359D10DB3A149",
-			"size": 726553,
-			"crc": 2658447878,
+			"size": 725919,
+			"crc": 3921282396,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg022_02"
 			]
@@ -85097,8 +85367,8 @@
 		{
 			"name": "shop/skin/shop_skin023",
 			"hash": "F0A460E91F9793A3B2258DFD919DDE09",
-			"size": 726772,
-			"crc": 336100049,
+			"size": 726143,
+			"crc": 2532061071,
 			"dependencies": [
 				"shop/tab/1.7.0/shopbannerbg023_02"
 			]
@@ -85697,8 +85967,8 @@
 		{
 			"name": "subjugationevent/raid_ranking/scenario_dictionary_contents_001",
 			"hash": "F6BD7B6D464FF4467F5DFAC5A8E70C80",
-			"size": 646153,
-			"crc": 3805963244,
+			"size": 645264,
+			"crc": 1340273218,
 			"dependencies": []
 		},
 		{
