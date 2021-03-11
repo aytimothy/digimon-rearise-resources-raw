@@ -1,5 +1,5 @@
 {
-	"version": "2021-03-08 20:10:15",
+	"version": "2021-03-11 21:38:59",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -12241,6 +12241,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/banner669",
+			"hash": "78999235A5298001001D434A078381D9",
+			"size": 43541,
+			"crc": 3088123268,
+			"dependencies": []
+		},
+		{
 			"name": "banner/bce_banner/bce_banner000",
 			"hash": "4BDAD196D9D5F5943C1F9C2B5F68D665",
 			"size": 229302,
@@ -12591,6 +12598,20 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/scenario_event_banner/scenario_event_banner044",
+			"hash": "D14CC841FA85381D98C43A5F273BA8AD",
+			"size": 221866,
+			"crc": 3037460434,
+			"dependencies": []
+		},
+		{
+			"name": "banner/scenario_event_banner/scenario_event_banner045",
+			"hash": "6C102BC55E4A3E6E727FF1A043C47E77",
+			"size": 207039,
+			"crc": 2547879884,
+			"dependencies": []
+		},
+		{
 			"name": "banner/scenario_event_homebanner/scenario_event_homebanner001",
 			"hash": "4581F17372B7224A9E2240D4FDDEB3EF",
 			"size": 30296,
@@ -12672,6 +12693,13 @@
 			"hash": "05504A856360BE009E3F7B3C5D8527C1",
 			"size": 36861,
 			"crc": 2180925711,
+			"dependencies": []
+		},
+		{
+			"name": "banner/scenario_event_homebanner/scenario_event_homebanner013",
+			"hash": "4EAFE9597DCE3175351D79D202EC1776",
+			"size": 36479,
+			"crc": 610750375,
 			"dependencies": []
 		},
 		{
@@ -30311,6 +30339,41 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/icon/digimonface1346302",
+			"hash": "A1EB2515C8AB1714BC70150FC6E6A846",
+			"size": 27004,
+			"crc": 3106808474,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1346303",
+			"hash": "2D14E4A2B65FADCC142639ABCC119E87",
+			"size": 29043,
+			"crc": 4248363067,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1346304",
+			"hash": "7CAADF3FD8D18E40BDCDD3765AD58FFA",
+			"size": 35971,
+			"crc": 3333223906,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1346305",
+			"hash": "7411CCD801F206434F0066BD62BC1109",
+			"size": 46417,
+			"crc": 2133734121,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/digimonface1346315",
+			"hash": "2AE4DBB49CFF35AF75D35253F8BCC201",
+			"size": 34587,
+			"crc": 2057294988,
+			"dependencies": []
+		},
+		{
 			"name": "digimon/icon/digimonface1347102",
 			"hash": "0EC00B5F42338F21F9F62FA51ABDC035",
 			"size": 30503,
@@ -36543,8 +36606,8 @@
 		{
 			"name": "digimon/model/chr776_b",
 			"hash": "A5C5C77DE4C58446833DE7EF736C1505",
-			"size": 1597762,
-			"crc": 3074905891,
+			"size": 1804857,
+			"crc": 1585109264,
 			"dependencies": [
 				"digimon/shadow/digimon_shadow"
 			]
@@ -44190,6 +44253,34 @@
 			"hash": "ADAD21FD764ECF1C82B43C552D661A1D",
 			"size": 67348,
 			"crc": 2681833988,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1346303",
+			"hash": "BE0D47D7A36E609BF36769E662CF8445",
+			"size": 63883,
+			"crc": 4033091737,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1346304",
+			"hash": "8AFEC58A36E8D817E638884F6F642511",
+			"size": 64490,
+			"crc": 2306106546,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1346305",
+			"hash": "CD96F5796D1ACD8460AB27A25BF328A5",
+			"size": 53023,
+			"crc": 3459840882,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1346315",
+			"hash": "C44C2CD137D5BC848B7933C3B63BC8AA",
+			"size": 50024,
+			"crc": 1700048649,
 			"dependencies": []
 		},
 		{
@@ -54027,6 +54118,20 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/item/equipment/iconequipment337413001",
+			"hash": "4942A828777C32A577F6CB7700ACB574",
+			"size": 46891,
+			"crc": 3008463608,
+			"dependencies": []
+		},
+		{
+			"name": "icon/item/equipment/iconequipment337433001",
+			"hash": "E79D0CFAF3B53F7CFDD1B1B37C705027",
+			"size": 47220,
+			"crc": 3239110315,
+			"dependencies": []
+		},
+		{
 			"name": "icon/item/equipment/iconequipment340031",
 			"hash": "8134D02F15D91BC39DA4D5D654B45590",
 			"size": 32480,
@@ -60600,6 +60705,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/shopprize/shopprize_pack364",
+			"hash": "CA804747DA372F6510C9A8592A72D9C0",
+			"size": 31483,
+			"crc": 3086447217,
+			"dependencies": []
+		},
+		{
 			"name": "icon/shopprize/shopprize_pack37",
 			"hash": "82EF926F0A4FA4A32249A3C8E1F0D04E",
 			"size": 31921,
@@ -61787,6 +61899,13 @@
 			"hash": "53087DEBAF1432B68A1CB010910C49AB",
 			"size": 12552,
 			"crc": 1142425794,
+			"dependencies": []
+		},
+		{
+			"name": "icon/skill/icon_subskill_fire_b03",
+			"hash": "C1F71FA5D1CD204E3D31DCEBB064A198",
+			"size": 12531,
+			"crc": 2699932761,
 			"dependencies": []
 		},
 		{
@@ -64807,6 +64926,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/skill/icon_unique_skill_chr776_b",
+			"hash": "65EE7BE4493D7FD3FBB03CC6D960BC4C",
+			"size": 34185,
+			"crc": 4265047879,
+			"dependencies": []
+		},
+		{
 			"name": "icon/skill/icon_unique_skill_chr776_c",
 			"hash": "E49251E1F7C8EE2D2CF78D3C8C0C00A3",
 			"size": 33846,
@@ -65313,281 +65439,281 @@
 		{
 			"name": "login_bonus/g2384_login_bonus",
 			"hash": "877B2133056B479487B6ADCB0339B9BD",
-			"size": 1588644,
-			"crc": 1781179581,
+			"size": 1591044,
+			"crc": 3064898850,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g2385_login_bonus",
 			"hash": "14FF31E7FCF96F5111CE376C88DE1AF5",
-			"size": 1341518,
-			"crc": 2829653863,
+			"size": 1343126,
+			"crc": 2755633079,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g2707_login_bonus",
 			"hash": "283F40ABC808AAD6CE1DFE3D80113526",
-			"size": 1104905,
-			"crc": 3057464518,
+			"size": 1106682,
+			"crc": 2823902879,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g2831_login_bonus",
 			"hash": "50434280F0ADABB6095DFE48D6DF018A",
-			"size": 1673930,
-			"crc": 1925607963,
+			"size": 1675483,
+			"crc": 3686180389,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g2833_login_bonus",
 			"hash": "AD8A87BD3C5CDA1C62240A31AE406390",
-			"size": 1377826,
-			"crc": 4001765789,
+			"size": 1379561,
+			"crc": 430451776,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3149_login_bonus",
 			"hash": "A25775A0B2D87F82458BC06C930028CB",
-			"size": 1277813,
-			"crc": 4107523389,
+			"size": 1279116,
+			"crc": 3175063751,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3354_login_bonus",
 			"hash": "8A499E88D32118012C5C8BD0AF4A0C29",
-			"size": 1345249,
-			"crc": 3361822731,
+			"size": 1346878,
+			"crc": 1549725501,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3355_login_bonus",
 			"hash": "10430A4FAC241F767C64843AF4F105E6",
-			"size": 1735496,
-			"crc": 2954416646,
+			"size": 1737571,
+			"crc": 3349388918,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3436_login_bonus",
 			"hash": "EA096D491419A05C34907F682361A732",
-			"size": 1550905,
-			"crc": 689832022,
+			"size": 1553201,
+			"crc": 4171041217,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3543_login_bonus_1",
 			"hash": "0BE490B58BECE38787643AFF86608AC9",
-			"size": 1788348,
-			"crc": 2212862130,
+			"size": 1790228,
+			"crc": 1669460888,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3543_login_bonus_2",
 			"hash": "EAEEF4BE0A2373336D859078F2396B8D",
-			"size": 1788307,
-			"crc": 1062517087,
+			"size": 1790208,
+			"crc": 4184735739,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3550_login_bonus",
 			"hash": "455C5485E5A204AB9B6CFBB512BAE61C",
-			"size": 1587712,
-			"crc": 2378949927,
+			"size": 1589173,
+			"crc": 1511035365,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3750_g3752_login_bonus_1",
 			"hash": "9533CF383CB27BBE095FFF84AE6E8B6D",
-			"size": 3613462,
-			"crc": 167249045,
+			"size": 3616391,
+			"crc": 3312802193,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3750_g3752_login_bonus_2",
 			"hash": "A06DF18B70FBD2864C2BCABE39680260",
-			"size": 3611430,
-			"crc": 2647655928,
+			"size": 3614199,
+			"crc": 805566835,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3751_login_bonus",
 			"hash": "7E4B78D2E07BF6DB02A97F164519A3BD",
-			"size": 1861550,
-			"crc": 1123312157,
+			"size": 1863597,
+			"crc": 1747089634,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3829_login_bonus",
 			"hash": "EAA37C52DCE0A93F0843C73BAAEFF5C9",
-			"size": 1409322,
-			"crc": 175677177,
+			"size": 1411314,
+			"crc": 1921673902,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3869_login_bonus",
 			"hash": "9FA853801AC57C977A6915759DA930E6",
-			"size": 1610904,
-			"crc": 2855422945,
+			"size": 1613440,
+			"crc": 3063911637,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g3956_login_bonus",
 			"hash": "D2F67DEAAE887F043BF3580F8A0C96DF",
-			"size": 4024144,
-			"crc": 3976213937,
+			"size": 4025190,
+			"crc": 1700429050,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4071_login_bonus",
 			"hash": "86685AAD0F08D41A6291924D935F4D98",
-			"size": 1665219,
-			"crc": 3459458816,
+			"size": 1667180,
+			"crc": 4251685077,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4072_login_bonus",
 			"hash": "DBF71CA8205D6C54EFB84406B5DFCDF9",
-			"size": 1357710,
-			"crc": 640666160,
+			"size": 1359417,
+			"crc": 945573672,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4107_login_bonus",
 			"hash": "D66CD39BDCD3F2A213B58E4F34317FB8",
-			"size": 1437717,
-			"crc": 3062126569,
+			"size": 1440323,
+			"crc": 1607270034,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4251_login_bonus",
 			"hash": "15C266EDA12FE94E3EAB864672FB9247",
-			"size": 1423968,
-			"crc": 2845876230,
+			"size": 1425414,
+			"crc": 1311924079,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4252_login_bonus",
 			"hash": "5297D1F6EE3D1ADDC0C11005C0F997CA",
-			"size": 1602193,
-			"crc": 1324519717,
+			"size": 1605157,
+			"crc": 2699383554,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4311_login_bonus",
 			"hash": "234835BFC22949C3372D0F292F20A7A7",
-			"size": 1525315,
-			"crc": 2900555556,
+			"size": 1527215,
+			"crc": 563208366,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4372_login_bonus",
 			"hash": "0842E18B4D9A165B6E38F781D9F0C4A7",
-			"size": 1280155,
-			"crc": 2930430804,
+			"size": 1281669,
+			"crc": 2633561183,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4373_login_bonus",
 			"hash": "922616D65C22159355B870DFB6BC03B4",
-			"size": 1679910,
-			"crc": 3097908985,
+			"size": 1681873,
+			"crc": 3267048809,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4446_login_bonus",
 			"hash": "5C7EE75A2AF4FC76470CC91C3B92E6D1",
-			"size": 1330224,
-			"crc": 2573487884,
+			"size": 1332223,
+			"crc": 1499326133,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4531_login_bonus",
 			"hash": "208CAFED87B9E723F9A3B662E6A07CF2",
-			"size": 1497056,
-			"crc": 3812279430,
+			"size": 1498424,
+			"crc": 2453951939,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4532_login_bonus_1",
 			"hash": "923FB23171A3EFF0A546C9A940D463BF",
-			"size": 1833312,
-			"crc": 2915431259,
+			"size": 1834939,
+			"crc": 401365872,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4532_login_bonus_2",
 			"hash": "C408B2FECF0E09D7BC125C61C862EFE2",
-			"size": 1833100,
-			"crc": 738006634,
+			"size": 1834825,
+			"crc": 4134663155,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4572_login_bonus",
 			"hash": "7053512671BD8C96AF351E29FB977454",
-			"size": 1524757,
-			"crc": 2703494741,
+			"size": 1526739,
+			"crc": 3489286344,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4629_login_bonus",
 			"hash": "C81EE0E0E7C8194711B7C923EE14FEA2",
-			"size": 4389724,
-			"crc": 721552724,
+			"size": 4391205,
+			"crc": 1078301842,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4730_login_bonus",
 			"hash": "AB9875C2CFE8564C62FE775A807D29CC",
-			"size": 1281783,
-			"crc": 398210788,
+			"size": 1283247,
+			"crc": 2217167199,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4734_login_bonus",
 			"hash": "DEE064CBDBD1E8E46771D7528A962458",
-			"size": 1629619,
-			"crc": 2164789148,
+			"size": 1632153,
+			"crc": 2677542437,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4770_login_bonus_1",
 			"hash": "926CEE280026D6C8D2303BB1E1421189",
-			"size": 4024662,
-			"crc": 3987391038,
+			"size": 4025888,
+			"crc": 3559455052,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4770_login_bonus_2",
 			"hash": "043C3C2B182200ECD3C96CC6F537BE49",
-			"size": 4023637,
-			"crc": 2086137018,
+			"size": 4024924,
+			"crc": 1177380586,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4823_login_bonus",
 			"hash": "1590F011654E824C57038013438F80A7",
-			"size": 1967302,
-			"crc": 1968162477,
+			"size": 1968941,
+			"crc": 3103769553,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4824_login_bonus",
 			"hash": "63278EB76C1D6C11D48C41F21A6E66A5",
-			"size": 2056286,
-			"crc": 183474655,
+			"size": 2057906,
+			"crc": 1525496387,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4838_login_bonus",
 			"hash": "BC2A28C4FEC33291D45FE7CD62D06251",
-			"size": 1486716,
-			"crc": 2490594315,
+			"size": 1488754,
+			"crc": 3121868088,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/g4853_login_bonus",
 			"hash": "7D1E4A681C1E46DB5F6219120636875B",
-			"size": 1449684,
-			"crc": 481138960,
+			"size": 1451339,
+			"crc": 3723995363,
 			"dependencies": []
 		},
 		{
@@ -65612,52 +65738,59 @@
 			"dependencies": []
 		},
 		{
+			"name": "login_bonus/g4983_login_bonus",
+			"hash": "F820F1049D8A591DED7988AFF0253527",
+			"size": 1648849,
+			"crc": 2010263174,
+			"dependencies": []
+		},
+		{
 			"name": "login_bonus/monthly_login_bonus_blue000",
 			"hash": "256E36588F1BD36037737E4260F6CC13",
-			"size": 2142683,
-			"crc": 1934232808,
+			"size": 2144495,
+			"crc": 2553405170,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/monthly_login_bonus_green000",
 			"hash": "B0B245B5CA59B947150322E234EBEBB7",
-			"size": 2131820,
-			"crc": 947220469,
+			"size": 2133699,
+			"crc": 1796342002,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/monthly_login_bonus_purple000",
 			"hash": "09B261DDD19CB2EA2880F770E99BD876",
-			"size": 2134394,
-			"crc": 136396937,
+			"size": 2136362,
+			"crc": 3113843539,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/monthly_login_bonus_yellow000",
 			"hash": "656933F7D329D55290A26C75F26CEBC8",
-			"size": 2101478,
-			"crc": 2071108497,
+			"size": 2103947,
+			"crc": 4205404556,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/nomal_login_bonus",
 			"hash": "7F568CA35AB09A42E7EED58105B6FD27",
-			"size": 645136,
-			"crc": 2889617640,
+			"size": 647107,
+			"crc": 4117140392,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/release_login_bonus",
 			"hash": "29B14B0B50C20DBB1CD3088BF71D0144",
-			"size": 1206894,
-			"crc": 1550769102,
+			"size": 1208857,
+			"crc": 2036775723,
 			"dependencies": []
 		},
 		{
 			"name": "login_bonus/startdash_login_bonus",
 			"hash": "86D2E789FF4DE44C314746668FCDB955",
-			"size": 1083438,
-			"crc": 337339206,
+			"size": 1085320,
+			"crc": 2008722262,
 			"dependencies": []
 		},
 		{
@@ -67497,15 +67630,15 @@
 		{
 			"name": "raid_appeared/raid_chr007",
 			"hash": "234FDCC11E650BC216BD0C6FDA5EA5C2",
-			"size": 835605,
-			"crc": 2779592248,
+			"size": 837690,
+			"crc": 3588510544,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr013",
 			"hash": "891CC03E178D7AE31D1C4D47E08F07C8",
-			"size": 836569,
-			"crc": 409519432,
+			"size": 838511,
+			"crc": 3608463623,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67513,8 +67646,8 @@
 		{
 			"name": "raid_appeared/raid_chr019",
 			"hash": "D997F74B7F2DB908E60943F5BA6F5C35",
-			"size": 837141,
-			"crc": 3129618013,
+			"size": 839061,
+			"crc": 614635077,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67522,15 +67655,15 @@
 		{
 			"name": "raid_appeared/raid_chr027",
 			"hash": "BFC66938D0A7F4DC1A7771E8991CB522",
-			"size": 835341,
-			"crc": 3968539516,
+			"size": 837404,
+			"crc": 3619171672,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr034",
 			"hash": "4ED6F2A9DBF1417A5BC9049D741B15E5",
-			"size": 836432,
-			"crc": 1936115470,
+			"size": 838433,
+			"crc": 2362672677,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67538,8 +67671,8 @@
 		{
 			"name": "raid_appeared/raid_chr035",
 			"hash": "E410209DC72472CBEB0B47F9F11C9650",
-			"size": 836481,
-			"crc": 1945876620,
+			"size": 838482,
+			"crc": 880281843,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67547,15 +67680,15 @@
 		{
 			"name": "raid_appeared/raid_chr039",
 			"hash": "EC3A7E6115D8B9D5F2F720C56FA208BD",
-			"size": 835283,
-			"crc": 1177186413,
+			"size": 837324,
+			"crc": 1581952636,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr040",
 			"hash": "D3E737C87FE6E9324ABE202BBE252F5F",
-			"size": 836625,
-			"crc": 3824910013,
+			"size": 838538,
+			"crc": 2614135944,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67563,113 +67696,113 @@
 		{
 			"name": "raid_appeared/raid_chr069",
 			"hash": "808960A7BC32F45B419BCE2A7F5CE493",
-			"size": 835228,
-			"crc": 3725780078,
+			"size": 837266,
+			"crc": 948600069,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr088",
 			"hash": "49D5E0332AB5B8E40B566A30E08BD85C",
-			"size": 835261,
-			"crc": 1793968971,
+			"size": 837324,
+			"crc": 1791021280,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr094",
 			"hash": "56BCFC659A7BBB1094A0FF0854C06864",
-			"size": 835126,
-			"crc": 1298671713,
+			"size": 837164,
+			"crc": 2648199693,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr095",
 			"hash": "FB65F94A720AA63E131E7CD9F2117E40",
-			"size": 835237,
-			"crc": 3479104113,
+			"size": 837284,
+			"crc": 1192160743,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr104",
 			"hash": "542870279491C9CB075B13632972CC27",
-			"size": 835769,
-			"crc": 1812891262,
+			"size": 837827,
+			"crc": 911219312,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr105",
 			"hash": "9BFA4F35B90DD2CC4E50CC7D15EB953C",
-			"size": 835323,
-			"crc": 884959949,
+			"size": 837372,
+			"crc": 3386591253,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr106",
 			"hash": "6931E776CB50E3244BB8043F7B2ABF8E",
-			"size": 1319998,
-			"crc": 2562947739,
+			"size": 1321659,
+			"crc": 1784556426,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr108",
 			"hash": "16B369AE137AA1B164D81EE8577E2F15",
-			"size": 836066,
-			"crc": 1066840966,
+			"size": 838040,
+			"crc": 1957447671,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr110",
 			"hash": "5F06B15192E0639AD58F6188DB57C120",
-			"size": 835306,
-			"crc": 2536845076,
+			"size": 837370,
+			"crc": 1759141748,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr126",
 			"hash": "B2A466BD4377A8D25FFFB34508DAD079",
-			"size": 835264,
-			"crc": 1662925942,
+			"size": 837336,
+			"crc": 1437586358,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr135",
 			"hash": "F1FA736E66B658E893EF12209937212E",
-			"size": 836027,
-			"crc": 3054069899,
+			"size": 838005,
+			"crc": 3743056416,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr148",
 			"hash": "3150CA0A831843C5D9DBCAF027131F53",
-			"size": 835408,
-			"crc": 2200601671,
+			"size": 837475,
+			"crc": 2369095409,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr150",
 			"hash": "13F98582643B99C4E030D7025C3FFA4B",
-			"size": 835285,
-			"crc": 3591477622,
+			"size": 837354,
+			"crc": 215731521,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr175",
 			"hash": "6F75053B4F6266C8A8FAA25CD323660B",
-			"size": 835229,
-			"crc": 34344779,
+			"size": 837289,
+			"crc": 3693545360,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr201",
 			"hash": "23D9C17C9152AE35DA5901ACDD34450C",
-			"size": 836674,
-			"crc": 173707541,
+			"size": 838098,
+			"crc": 2571636036,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr215",
 			"hash": "773B6AA813B1CF79A191B7ACC7C17F79",
-			"size": 837109,
-			"crc": 2561807124,
+			"size": 839053,
+			"crc": 1936887498,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67677,8 +67810,8 @@
 		{
 			"name": "raid_appeared/raid_chr230",
 			"hash": "74C51F49CB48D80320F12B6021857ABB",
-			"size": 836790,
-			"crc": 3326673903,
+			"size": 838728,
+			"crc": 3377747171,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67686,8 +67819,8 @@
 		{
 			"name": "raid_appeared/raid_chr233",
 			"hash": "CE1DD6BB87CEF6094430E52EFBA76ED2",
-			"size": 836702,
-			"crc": 746708748,
+			"size": 838626,
+			"crc": 3610750635,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67695,36 +67828,36 @@
 		{
 			"name": "raid_appeared/raid_chr302",
 			"hash": "299E8CF5908C05CAAB373BF620AD6534",
-			"size": 827561,
-			"crc": 4140221273,
+			"size": 829363,
+			"crc": 3131457703,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr310",
 			"hash": "048C543BA45C59C433445708A9D2BC7A",
-			"size": 835136,
-			"crc": 3952255370,
+			"size": 837231,
+			"crc": 1912272062,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr312",
 			"hash": "C05E8CE567761DA74537152572637F29",
-			"size": 836145,
-			"crc": 1058855651,
+			"size": 838064,
+			"crc": 1007981640,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr329",
 			"hash": "D2AC3DA3333E2F4970DB636191D152B8",
-			"size": 836711,
-			"crc": 924138694,
+			"size": 838116,
+			"crc": 3810419222,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr331",
 			"hash": "910B8C215DC491F155D7AE3CD6BFD8A1",
-			"size": 837082,
-			"crc": 1710150390,
+			"size": 838482,
+			"crc": 3086474244,
 			"dependencies": []
 		},
 		{
@@ -67737,8 +67870,8 @@
 		{
 			"name": "raid_appeared/raid_chr346",
 			"hash": "73799F0F950C5525A5E903843796B0CD",
-			"size": 836940,
-			"crc": 1695944164,
+			"size": 838839,
+			"crc": 3047736875,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67746,8 +67879,8 @@
 		{
 			"name": "raid_appeared/raid_chr347",
 			"hash": "4CF758B4C20EBB38153D2DA66FDBB29A",
-			"size": 829198,
-			"crc": 3114159666,
+			"size": 830688,
+			"crc": 2381218993,
 			"dependencies": []
 		},
 		{
@@ -67760,8 +67893,8 @@
 		{
 			"name": "raid_appeared/raid_chr358",
 			"hash": "2265C33ADEDC3482771485E831CBC87C",
-			"size": 2217749,
-			"crc": 2791440145,
+			"size": 2219561,
+			"crc": 2811604432,
 			"dependencies": [
 				"digimon/shadow/digimon_shadow"
 			]
@@ -67776,50 +67909,50 @@
 		{
 			"name": "raid_appeared/raid_chr382",
 			"hash": "05A1FF0F896B0B5A4A179EDCA7907360",
-			"size": 835188,
-			"crc": 4055170795,
+			"size": 837251,
+			"crc": 1052101072,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr383",
 			"hash": "104B0DF75D1F0ACC693AC490EEC6C78D",
-			"size": 835736,
-			"crc": 1384141741,
+			"size": 837802,
+			"crc": 35781597,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr385",
 			"hash": "4A1CF34D434C1DF7F01F7AEE924E0D4E",
-			"size": 835652,
-			"crc": 2985394559,
+			"size": 837714,
+			"crc": 1622306049,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr408",
 			"hash": "FB3748DA85733B6074997F6B636A15CA",
-			"size": 836592,
-			"crc": 3383215192,
+			"size": 838577,
+			"crc": 423521459,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr416",
 			"hash": "98D07E4F134A3CEDED3862345EB27916",
-			"size": 835817,
-			"crc": 2094585265,
+			"size": 837871,
+			"crc": 4276817819,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr417",
 			"hash": "1F99BC85FC6128134687C75BDB7E4696",
-			"size": 835782,
-			"crc": 3134941254,
+			"size": 837835,
+			"crc": 889213547,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr418",
 			"hash": "938A360CDDA146CAD771403CF5BAAE81",
-			"size": 2338340,
-			"crc": 1078053233,
+			"size": 2339578,
+			"crc": 3775740692,
 			"dependencies": [
 				"digimon/model/chr418",
 				"digimon/shadow/digimon_shadow"
@@ -67828,99 +67961,99 @@
 		{
 			"name": "raid_appeared/raid_chr419",
 			"hash": "955362987E4697A7D5F772A1B67CE320",
-			"size": 835717,
-			"crc": 1694076156,
+			"size": 837773,
+			"crc": 3272979282,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr420",
 			"hash": "BFEE88738F679864F0767707D01E7DDC",
-			"size": 835320,
-			"crc": 2133209602,
+			"size": 837386,
+			"crc": 1887912777,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr421",
 			"hash": "0F013259364B98897B142F780C626C40",
-			"size": 835309,
-			"crc": 188293091,
+			"size": 837364,
+			"crc": 171097661,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr423",
 			"hash": "33B6A8F76C7FAB5CC6868119B032E5F0",
-			"size": 827803,
-			"crc": 104297448,
+			"size": 829609,
+			"crc": 3921201691,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr425",
 			"hash": "49C4705D4CBCFE40DFB8BA15132C0A42",
-			"size": 835157,
-			"crc": 1889720004,
+			"size": 837171,
+			"crc": 77185744,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr426",
 			"hash": "5B7913B1921A0E7D0B25B3213075FA32",
-			"size": 828486,
-			"crc": 4149715654,
+			"size": 830261,
+			"crc": 681631364,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr427",
 			"hash": "85901D7C33FD6BE5EA85010CABD6B371",
-			"size": 835207,
-			"crc": 2057118980,
+			"size": 837223,
+			"crc": 2069902389,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr428",
 			"hash": "F3265ACF4E70F6F7704D7541D62E4E1D",
-			"size": 835261,
-			"crc": 2653327762,
+			"size": 837324,
+			"crc": 3865975434,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr429",
 			"hash": "C65652A6F3D59BB3296C77A569A96006",
-			"size": 828068,
-			"crc": 2283573207,
+			"size": 829836,
+			"crc": 1573880585,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr430",
 			"hash": "57CD64D97D3F0F2C50D578B23ED39DD0",
-			"size": 836647,
-			"crc": 2755299443,
+			"size": 837849,
+			"crc": 1523701184,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr432",
 			"hash": "6F80E79F3C680DC1E8342736571EB742",
-			"size": 835798,
-			"crc": 1652932416,
+			"size": 837857,
+			"crc": 1545926737,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr434",
 			"hash": "1F43D7E61CF1B8601E9C04F6FD2D7187",
-			"size": 835229,
-			"crc": 1313415635,
+			"size": 837243,
+			"crc": 1165333972,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr435",
 			"hash": "B3BAC4AC16A6971DD63BD52DFF17AEF3",
-			"size": 835724,
-			"crc": 141510567,
+			"size": 837802,
+			"crc": 2326691103,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr439",
 			"hash": "169CA5FE1E527A06A6D8895775B09277",
-			"size": 836830,
-			"crc": 2600804428,
+			"size": 838746,
+			"crc": 2560852675,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67928,36 +68061,36 @@
 		{
 			"name": "raid_appeared/raid_chr440",
 			"hash": "1AF96E82FC2AF05366CC798010FBA176",
-			"size": 828557,
-			"crc": 1564316165,
+			"size": 830323,
+			"crc": 690319139,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr445",
 			"hash": "E97F4165C07477EE1EB5583A3A4758D0",
-			"size": 835409,
-			"crc": 3250571124,
+			"size": 837469,
+			"crc": 1972753204,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr446",
 			"hash": "C9EFAF7C7236E956C5E7519122F35052",
-			"size": 835778,
-			"crc": 1590912388,
+			"size": 837833,
+			"crc": 1450734443,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr448",
 			"hash": "A373825BEF65EC5C10DD0AD2722ECABA",
-			"size": 835837,
-			"crc": 1610548739,
+			"size": 837911,
+			"crc": 3141831462,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr451",
 			"hash": "8CD4CEC59131D2FCA3E53EBB5E56BD26",
-			"size": 828329,
-			"crc": 281506216,
+			"size": 830098,
+			"crc": 1852910360,
 			"dependencies": []
 		},
 		{
@@ -67970,8 +68103,8 @@
 		{
 			"name": "raid_appeared/raid_chr480",
 			"hash": "6B808AD31997F5E151F19A539CB0C7AA",
-			"size": 836586,
-			"crc": 2986590128,
+			"size": 838508,
+			"crc": 2692555033,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67986,8 +68119,8 @@
 		{
 			"name": "raid_appeared/raid_chr482",
 			"hash": "8445FF34858F2337AABF261F971B6E17",
-			"size": 836940,
-			"crc": 3263595535,
+			"size": 838867,
+			"crc": 2515798373,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -67995,15 +68128,15 @@
 		{
 			"name": "raid_appeared/raid_chr487",
 			"hash": "C0BD4D9108F15065606F440756A19CE4",
-			"size": 835392,
-			"crc": 2344854090,
+			"size": 837466,
+			"crc": 3501854452,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr584",
 			"hash": "5FEFE138A45FEFA0D2491C026A2303A0",
-			"size": 836724,
-			"crc": 3751456172,
+			"size": 838664,
+			"crc": 782842739,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -68011,8 +68144,8 @@
 		{
 			"name": "raid_appeared/raid_chr596",
 			"hash": "53CAA50AD42D16BFEB2CD89D419AFA22",
-			"size": 836658,
-			"crc": 1752570877,
+			"size": 838578,
+			"crc": 1215036042,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -68020,8 +68153,8 @@
 		{
 			"name": "raid_appeared/raid_chr600",
 			"hash": "61CEBA9F59D6FB36665FC0ED34EAE499",
-			"size": 835424,
-			"crc": 2690031184,
+			"size": 837467,
+			"crc": 2007845337,
 			"dependencies": []
 		},
 		{
@@ -68034,8 +68167,8 @@
 		{
 			"name": "raid_appeared/raid_chr627",
 			"hash": "5F8B5BFAA15D66424BB0AC9378621EB3",
-			"size": 1339245,
-			"crc": 2640177508,
+			"size": 1340545,
+			"crc": 3450865154,
 			"dependencies": []
 		},
 		{
@@ -68048,29 +68181,29 @@
 		{
 			"name": "raid_appeared/raid_chr632",
 			"hash": "5295F3AE8BA615FB3BC231E805E55075",
-			"size": 1339767,
-			"crc": 3841998170,
+			"size": 1341049,
+			"crc": 3803741057,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr632_2",
 			"hash": "078D8286DF890E48827229C224805147",
-			"size": 1579948,
-			"crc": 83109113,
+			"size": 1582208,
+			"crc": 2203963408,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr639",
 			"hash": "4C9A9ACA86472F6CD862158ACA76EE83",
-			"size": 835282,
-			"crc": 2150245509,
+			"size": 837337,
+			"crc": 630704703,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr640",
 			"hash": "C9092F68CD4BAD06C7FFB5F558F7882E",
-			"size": 836681,
-			"crc": 2518067436,
+			"size": 838616,
+			"crc": 1203705450,
 			"dependencies": [
 				"raid_appeared/raid_chr312"
 			]
@@ -68078,29 +68211,29 @@
 		{
 			"name": "raid_appeared/raid_chr666",
 			"hash": "299DD94AA541D2CCBC1156C1437680E8",
-			"size": 836178,
-			"crc": 256459930,
+			"size": 838158,
+			"crc": 2180226794,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr677",
 			"hash": "11AEAD16D9717BE7B2A0D7DB78858EAE",
-			"size": 835214,
-			"crc": 2522792661,
+			"size": 837275,
+			"crc": 2072303002,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr678",
 			"hash": "F413F8D7083995224EA4F824FDF405DC",
-			"size": 835250,
-			"crc": 2320473240,
+			"size": 837300,
+			"crc": 3430570264,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr679",
 			"hash": "52707345BC634CCE968A1B09AB9559A6",
-			"size": 835736,
-			"crc": 1998856560,
+			"size": 837806,
+			"crc": 2210165324,
 			"dependencies": []
 		},
 		{
@@ -68113,15 +68246,15 @@
 		{
 			"name": "raid_appeared/raid_chr703",
 			"hash": "0D08A5542587187110BC033B35B2B784",
-			"size": 835633,
-			"crc": 2935230685,
+			"size": 837711,
+			"crc": 4065728743,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr718",
 			"hash": "5CE0CA70B04DFD0B8D83A72010E7C390",
-			"size": 835391,
-			"crc": 3922889949,
+			"size": 837438,
+			"crc": 3123476582,
 			"dependencies": []
 		},
 		{
@@ -68134,106 +68267,106 @@
 		{
 			"name": "raid_appeared/raid_chr732",
 			"hash": "DFBFAA69B34A859090DFCC50A912378F",
-			"size": 836058,
-			"crc": 2022664289,
+			"size": 838056,
+			"crc": 2583809022,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr738",
 			"hash": "D91239A7389530D875DCFA1F3342D0CF",
-			"size": 836178,
-			"crc": 850257439,
+			"size": 838160,
+			"crc": 1655580917,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr739",
 			"hash": "E602896A976F0F1FE41B5E2B00A360A1",
-			"size": 836165,
-			"crc": 3701633702,
+			"size": 838159,
+			"crc": 1471410960,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr740",
 			"hash": "FFB273A0EAFBE147E560B7C35A47A456",
-			"size": 828200,
-			"crc": 1207470870,
+			"size": 830000,
+			"crc": 440109567,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr741",
 			"hash": "C0C04F58937AD996DDC591239E23D2C2",
-			"size": 827681,
-			"crc": 1918739295,
+			"size": 829482,
+			"crc": 1280583546,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr744",
 			"hash": "5992A2188C021EC600150A38190F91BA",
-			"size": 835198,
-			"crc": 1592023642,
+			"size": 837275,
+			"crc": 3148103469,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr747",
 			"hash": "4E7DD43A3332318F5BD560B9C33D2B15",
-			"size": 835335,
-			"crc": 3065354034,
+			"size": 837368,
+			"crc": 2086391168,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr748",
 			"hash": "0D8CCE37F9542589363286E7D07099DB",
-			"size": 835760,
-			"crc": 3764828213,
+			"size": 837809,
+			"crc": 309495617,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr749",
 			"hash": "42D991A69181191B66D08BFB23C56840",
-			"size": 835326,
-			"crc": 3837308536,
+			"size": 837386,
+			"crc": 985987578,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr757",
 			"hash": "E12ADC70A9881EB85557EB570F0A5075",
-			"size": 835586,
-			"crc": 3529733218,
+			"size": 837662,
+			"crc": 1358416591,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr766",
 			"hash": "8BF7F3D94F9765446E23B50BD4EA2AC3",
-			"size": 835374,
-			"crc": 2663324617,
+			"size": 837407,
+			"crc": 4196028988,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr772",
 			"hash": "3394AD638DC845ADECAAE96383CB78F9",
-			"size": 835416,
-			"crc": 1380502758,
+			"size": 837457,
+			"crc": 2035001176,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr775",
 			"hash": "F32FF044B3039CAE316DC9DAA78E10DC",
-			"size": 835709,
-			"crc": 1559348378,
+			"size": 837782,
+			"crc": 566390135,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr776",
 			"hash": "8EB3F5458F3F68DED73A3B0814BB2334",
-			"size": 835259,
-			"crc": 3445092641,
+			"size": 837327,
+			"crc": 179695982,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr777",
 			"hash": "6883D643201BFA213B0E7ECEF582279F",
-			"size": 2971153,
-			"crc": 1731998677,
+			"size": 2972721,
+			"crc": 1628781556,
 			"dependencies": [
 				"digimon/shadow/digimon_shadow"
 			]
@@ -68241,15 +68374,15 @@
 		{
 			"name": "raid_appeared/raid_chr778",
 			"hash": "E60A0F8AEB69D365882B022F174667F1",
-			"size": 835254,
-			"crc": 2577554516,
+			"size": 837334,
+			"crc": 418651729,
 			"dependencies": []
 		},
 		{
 			"name": "raid_appeared/raid_chr779",
 			"hash": "5FC9932D6C5905DD5BBC22C205FEEAD8",
-			"size": 835470,
-			"crc": 4144171580,
+			"size": 837567,
+			"crc": 999717205,
 			"dependencies": []
 		},
 		{
@@ -87266,8 +87399,8 @@
 		{
 			"name": "scenario_event/scenario_event_001",
 			"hash": "FCFE6A6F68F4E88540EA8548AF4C1130",
-			"size": 1489594,
-			"crc": 1456255525,
+			"size": 1491920,
+			"crc": 3606024905,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_001"
 			]
@@ -87275,8 +87408,8 @@
 		{
 			"name": "scenario_event/scenario_event_002",
 			"hash": "D6E688D8F624B7EF470A2DC902B527F2",
-			"size": 1488461,
-			"crc": 2661734018,
+			"size": 1490753,
+			"crc": 1237060659,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_002"
 			]
@@ -87284,8 +87417,8 @@
 		{
 			"name": "scenario_event/scenario_event_003",
 			"hash": "41C7EE06CF5C3CCBA2FCCDF4A980675F",
-			"size": 1614929,
-			"crc": 3259116465,
+			"size": 1617282,
+			"crc": 2730463365,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_003"
 			]
@@ -87293,8 +87426,8 @@
 		{
 			"name": "scenario_event/scenario_event_004",
 			"hash": "B3979439295BC82D724C88A2D3E7730E",
-			"size": 1492240,
-			"crc": 24423164,
+			"size": 1494792,
+			"crc": 1577837718,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_004"
 			]
@@ -87302,8 +87435,8 @@
 		{
 			"name": "scenario_event/scenario_event_005",
 			"hash": "C63670363E1EC5FF705F9894A05C055A",
-			"size": 1615094,
-			"crc": 1452101371,
+			"size": 1617133,
+			"crc": 3653408046,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_005"
 			]
@@ -87311,8 +87444,8 @@
 		{
 			"name": "scenario_event/scenario_event_006",
 			"hash": "920203295773A6B0CD4298639ABF36C2",
-			"size": 1497516,
-			"crc": 3369039556,
+			"size": 1499843,
+			"crc": 3367980912,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_006"
 			]
@@ -87320,8 +87453,8 @@
 		{
 			"name": "scenario_event/scenario_event_007",
 			"hash": "EE51B3F94890C81D20D5A12C4E0F6096",
-			"size": 1636871,
-			"crc": 2517949848,
+			"size": 1632995,
+			"crc": 3318968537,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_007"
 			]
@@ -87329,8 +87462,8 @@
 		{
 			"name": "scenario_event/scenario_event_008",
 			"hash": "BBD66FBD0C9E234BA154335BD8FF0A73",
-			"size": 1606334,
-			"crc": 3263639142,
+			"size": 1608663,
+			"crc": 4268953398,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_008"
 			]
@@ -87338,8 +87471,8 @@
 		{
 			"name": "scenario_event/scenario_event_009",
 			"hash": "8F055AFAD065643E392FBD16AC2890A1",
-			"size": 1636060,
-			"crc": 1817394033,
+			"size": 1638046,
+			"crc": 85069563,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_007"
 			]
@@ -87347,8 +87480,8 @@
 		{
 			"name": "scenario_event/scenario_event_010",
 			"hash": "981AE5EADFE8B19C2D3C41FB5E020FCB",
-			"size": 1630145,
-			"crc": 1152160532,
+			"size": 1632126,
+			"crc": 3058966500,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_010"
 			]
@@ -87356,8 +87489,8 @@
 		{
 			"name": "scenario_event/scenario_event_011",
 			"hash": "CB31B92B487A8B1C95329C91157347FC",
-			"size": 1610767,
-			"crc": 3653491968,
+			"size": 1613066,
+			"crc": 550212298,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_011"
 			]
@@ -87365,8 +87498,8 @@
 		{
 			"name": "scenario_event/scenario_event_012",
 			"hash": "1F28A53F43A7EF87FB0D85D9C0E26561",
-			"size": 1506903,
-			"crc": 2694425005,
+			"size": 1508721,
+			"crc": 3947460921,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_012"
 			]
@@ -87374,8 +87507,8 @@
 		{
 			"name": "scenario_event/scenario_event_013",
 			"hash": "E4F80BCD7DD3971F79BD301F7DFA9EAB",
-			"size": 1505258,
-			"crc": 1330218764,
+			"size": 1507093,
+			"crc": 503260874,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_013"
 			]
@@ -87383,8 +87516,8 @@
 		{
 			"name": "scenario_event/scenario_event_014",
 			"hash": "E6E737135BDC101E0AA2E31C5EC9D1E2",
-			"size": 1496271,
-			"crc": 3322720692,
+			"size": 1498088,
+			"crc": 720481024,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_014"
 			]
@@ -87392,8 +87525,8 @@
 		{
 			"name": "scenario_event/scenario_event_015",
 			"hash": "69AAF32E1E15921185376BDCA182DC21",
-			"size": 1505797,
-			"crc": 821679824,
+			"size": 1507673,
+			"crc": 469352278,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_015"
 			]
@@ -87401,8 +87534,8 @@
 		{
 			"name": "scenario_event/scenario_event_017",
 			"hash": "8129F873E20B32FC577C95554DB6667B",
-			"size": 1499628,
-			"crc": 1164598471,
+			"size": 1501812,
+			"crc": 1521608142,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_017"
 			]
@@ -87410,8 +87543,8 @@
 		{
 			"name": "scenario_event/scenario_event_021",
 			"hash": "13DC1AC1CE91A2C0F7287804186D89EB",
-			"size": 1500965,
-			"crc": 1958449799,
+			"size": 1503280,
+			"crc": 2176716796,
 			"dependencies": [
 				"icon/item/icon_scenario_event_point_021"
 			]
@@ -87428,8 +87561,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_001",
 			"hash": "D13F2105D2A18A4E0920A2923340EEE5",
-			"size": 811681,
-			"crc": 4096905970,
+			"size": 813580,
+			"crc": 2967277547,
 			"dependencies": [
 				"scenario/face/face_icon_cn035"
 			]
@@ -87437,8 +87570,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_002",
 			"hash": "7D23016691ADD038798098211AFA921F",
-			"size": 811645,
-			"crc": 965353945,
+			"size": 813548,
+			"crc": 3083509785,
 			"dependencies": [
 				"scenario/face/face_icon_cn750"
 			]
@@ -87446,8 +87579,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_003",
 			"hash": "59B0A92C868CF28945F51108E0CE1DF4",
-			"size": 811680,
-			"crc": 3568399613,
+			"size": 813578,
+			"crc": 4068552595,
 			"dependencies": [
 				"scenario/face/face_icon_cn385"
 			]
@@ -87455,8 +87588,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_004",
 			"hash": "0E09F7B6621DB84B59398DAC4147BB3C",
-			"size": 811681,
-			"crc": 2663920698,
+			"size": 813576,
+			"crc": 3432254941,
 			"dependencies": [
 				"scenario/face/face_icon_cn027"
 			]
@@ -87464,8 +87597,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_005",
 			"hash": "F4AD32568E089E67194C154F376B6BEB",
-			"size": 811710,
-			"crc": 1031990609,
+			"size": 813596,
+			"crc": 2982221373,
 			"dependencies": [
 				"scenario/face/face_icon_d065"
 			]
@@ -87473,8 +87606,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_006",
 			"hash": "C19D04B9A964F27E06AFA2E5D22C4E68",
-			"size": 811597,
-			"crc": 2554900777,
+			"size": 813498,
+			"crc": 1484144355,
 			"dependencies": [
 				"scenario/face/face_icon_cn027"
 			]
@@ -87482,8 +87615,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_007",
 			"hash": "512E6C3019E2217257BBB67B85AE3EF4",
-			"size": 811616,
-			"crc": 2261899980,
+			"size": 813522,
+			"crc": 814148581,
 			"dependencies": [
 				"scenario/face/face_icon_cn151"
 			]
@@ -87491,8 +87624,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_008",
 			"hash": "3571C9810EC03214745A73196B5E3734",
-			"size": 811741,
-			"crc": 700997549,
+			"size": 813631,
+			"crc": 3553492098,
 			"dependencies": [
 				"scenario/face/face_icon_cn107"
 			]
@@ -87500,8 +87633,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_010",
 			"hash": "84768BA567A8171AD391DCF71941AB23",
-			"size": 811405,
-			"crc": 2235715144,
+			"size": 813310,
+			"crc": 2067988518,
 			"dependencies": [
 				"scenario/face/face_icon_cn390"
 			]
@@ -87509,8 +87642,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_011",
 			"hash": "8B04E01ABE7CE609C2607A02B12FDE08",
-			"size": 811587,
-			"crc": 439497146,
+			"size": 813486,
+			"crc": 3631321411,
 			"dependencies": [
 				"scenario/face/face_icon_cn091"
 			]
@@ -87518,8 +87651,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_012",
 			"hash": "C9420E09DE1D7818243EA44D8F1B865E",
-			"size": 811532,
-			"crc": 2117619184,
+			"size": 813449,
+			"crc": 1699756517,
 			"dependencies": [
 				"scenario/face/face_icon_cn002"
 			]
@@ -87527,8 +87660,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_013",
 			"hash": "FF31DFA0287746B99DCCCFB53B535439",
-			"size": 811630,
-			"crc": 3377538582,
+			"size": 813520,
+			"crc": 3042798833,
 			"dependencies": [
 				"scenario/face/face_icon_cn096"
 			]
@@ -87536,8 +87669,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_014",
 			"hash": "54EA1CF37BB58BA423CAD567373450F8",
-			"size": 811532,
-			"crc": 1488449644,
+			"size": 813465,
+			"crc": 345704958,
 			"dependencies": [
 				"scenario/face/face_icon_cn090"
 			]
@@ -87545,8 +87678,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_015",
 			"hash": "F68F61F5B76DCE032CDAFE8A4F8CF047",
-			"size": 811975,
-			"crc": 412071127,
+			"size": 813887,
+			"crc": 2470629630,
 			"dependencies": [
 				"scenario/face/face_icon_cn139"
 			]
@@ -87554,8 +87687,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_017",
 			"hash": "6F0D978D3FEC5242DCA48FC6719CFCDF",
-			"size": 811747,
-			"crc": 398799794,
+			"size": 813661,
+			"crc": 4021554648,
 			"dependencies": [
 				"scenario/face/face_icon_cn391"
 			]
@@ -87563,8 +87696,8 @@
 		{
 			"name": "scenario_event/scenario_event_digimon_get_dialog_021",
 			"hash": "78DC876282FCE9DA74739B53C07FCE0A",
-			"size": 811683,
-			"crc": 2670829246,
+			"size": 813584,
+			"crc": 3050586388,
 			"dependencies": [
 				"scenario/face/face_icon_cn234"
 			]
@@ -89211,29 +89344,29 @@
 		{
 			"name": "subjugationevent/bg/g3235_subjugationeventbg_001",
 			"hash": "A6792157828F1BF86F94CF2CE5338FB2",
-			"size": 532917,
-			"crc": 1917755064,
+			"size": 532400,
+			"crc": 1424741664,
 			"dependencies": []
 		},
 		{
 			"name": "subjugationevent/bg/g3235_subjugationeventbg_002",
 			"hash": "FD310D1996B4D4D0A8044882372E0C95",
-			"size": 539734,
-			"crc": 242205139,
+			"size": 539271,
+			"crc": 809439997,
 			"dependencies": []
 		},
 		{
 			"name": "subjugationevent/bg/g3235_subjugationeventbg_003",
 			"hash": "391787119B975D473E2DFB069CB7FF71",
-			"size": 542481,
-			"crc": 341846901,
+			"size": 542077,
+			"crc": 653227076,
 			"dependencies": []
 		},
 		{
 			"name": "subjugationevent/bg/g3235_subjugationeventbg_004",
 			"hash": "CD7C984F7C68FF492D1D839D37CED783",
-			"size": 544888,
-			"crc": 4152328961,
+			"size": 544453,
+			"crc": 263155495,
 			"dependencies": []
 		},
 		{
