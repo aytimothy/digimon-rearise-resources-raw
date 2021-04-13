@@ -25,7 +25,7 @@ def decrypt_xor(data):
 	return XOR.new(KEY).decrypt(data)
 
 session = requests.Session()
-retry = Retry(total=20, backoff_factor=0.01, status_forcelist=[502], method_whitelist=False)
+retry = Retry(total=20, backoff_factor=0.01, status_forcelist=[502], allowed_methods=False)
 session.mount('https://', requests.adapters.HTTPAdapter(max_retries=retry))
 def get(url):
 	with print_lock:
