@@ -181,9 +181,9 @@ else:
 for resource_kind, encrypted, split in resource_kinds:
 	try:
 		with open(os.path.join(lang, resource_kind, 'manifest')) as file:
-			old_asset_manifest = json.load(file)
+			old_asset_manifest_resources = {resource['name']: resource for resource in json.load(file)['resources']}
 	except FileNotFoundError:
-		old_asset_manifest = {'resources': ()}
+		old_asset_manifest_resources = {}
 
 	url = posixpath.join(base_url, url_lang, cache_key, resource_kind, MANIFEST_HASH)
 	manifest = get(url).content
@@ -207,7 +207,7 @@ for resource_kind, encrypted, split in resource_kinds:
 			raise ValueError('resource path contains dot-filenames: ' + resource['name'])
 		if '.part/' in resource['name'] or resource['name'].endswith('.part'):
 			raise ValueError('resource path contains filenames ending in .part: ' + resource['name'])
-		if resource in old_asset_manifest['resources']:
+		if resource == old_asset_manifest_resources.get(resource['name']):
 			# Sanity check in case a previous instance of this script crashed
 			try:
 				if os.path.getsize(os.path.join(lang, resource_kind, resource['name'])) == resource['size']:
