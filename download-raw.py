@@ -73,7 +73,7 @@ except Exception as e:
 print_lock = threading.Lock()
 
 n_decrypting_threads = 2
-decryptable_queue = queue.Queue(64)
+decryptable_queue = queue.Queue(16)
 decrypting_threads = []
 def decrypt_repeatedly():
 	while True:
@@ -113,12 +113,14 @@ def decrypt_repeatedly():
 				os.replace(path + '.part', path)
 				digest_by_path[path] = digest
 				path_by_digest[digest] = path
+		finally:
+			del data
 for i in range(n_decrypting_threads):
 	t = threading.Thread(target=decrypt_repeatedly, daemon=True)
 	decrypting_threads.append(t)
 	t.start()
 
-n_downloading_threads = 64
+n_downloading_threads = 16
 downloadable_queue = queue.Queue()
 downloading_threads = []
 def download_repeatedly():
@@ -152,6 +154,8 @@ def download_repeatedly():
 			downloadable_queue.task_done()
 		else:
 			decryptable_queue.put((name, resource['crc'], encrypted, data, resource, resource_kind, split, attempt))
+		finally:
+			del data
 for i in range(n_downloading_threads):
 	t = threading.Thread(target=download_repeatedly, daemon=True)
 	downloading_threads.append(t)
