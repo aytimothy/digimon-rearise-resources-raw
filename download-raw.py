@@ -30,11 +30,9 @@ session.mount('https://', requests.adapters.HTTPAdapter(max_retries=retry))
 def get(url):
 	with print_lock:
 		print(f'Getting {url}...')
-	r = session.get(url, timeout=30)
-	r.raise_for_status()
-	if 'charset' not in r.headers['content-type'].lower():
-		r.encoding = 'utf-8-sig'
-	return r
+	with session.get(url, timeout=30) as r:
+		r.raise_for_status()
+		return r.content
 
 def cache_key(value):
 	if not re.match(r'^[0-9a-f]{32}$', value):
@@ -134,12 +132,12 @@ def download_repeatedly():
 			dirname = posixpath.dirname(resource['name'])
 			url = posixpath.join(base_url, url_lang, cache_key, resource_kind, dirname, resource['hash'])
 			if split is None:
-				data = get(url).content
+				data = get(url)
 			else:
 				data = []
 				for i in range(1, 1 + (resource['size'] + split - 1) // split):
 					try:
-						data.append(get(f'{url}.{i:03d}').content)
+						data.append(get(f'{url}.{i:03d}'))
 					except:
 						downloaded_name = f'{name}.{i:03d}'
 						raise
@@ -186,7 +184,7 @@ for resource_kind, encrypted, split in resource_kinds:
 		old_asset_manifest_resources = {}
 
 	url = posixpath.join(base_url, url_lang, cache_key, resource_kind, MANIFEST_HASH)
-	manifest = get(url).content
+	manifest = get(url)
 
 	try:
 		manifest = base64.b64decode(manifest, validate=True)
@@ -228,7 +226,7 @@ while True:
 	name = f'builtin/m.{i:03d}'
 	try:
 		url = posixpath.join(base_url, url_lang, cache_key, name)
-		data = get(url).content
+		data = get(url)
 	except BaseException as e:
 		with print_lock:
 			print(f'Failed to download {name}:', file=sys.stderr)
