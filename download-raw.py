@@ -211,6 +211,8 @@ for resource_kind, encrypted, split in resource_kinds:
 			raise ValueError('resource path is absolute: ' + resource['name'])
 		if '/.' in resource['name'] or resource['name'].startswith('.'):
 			raise ValueError('resource path contains dot-filenames: ' + resource['name'])
+		if resource['name'] in ('manifest', 'manifest.part'):
+			raise ValueError('resource path clashes with manifest path')
 		if resource == old_asset_manifest_resources.get(resource['name']):
 			# Sanity check in case a previous instance of this script crashed
 			try:
