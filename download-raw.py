@@ -235,7 +235,7 @@ while True:
 	try:
 		url = posixpath.join(base_url, url_lang, cache_key, name)
 		data = get(url)
-	except BaseException as e:
+	except Exception:
 		with print_lock:
 			print(f'Failed to download {name}:', file=sys.stderr)
 			traceback.print_exc()
