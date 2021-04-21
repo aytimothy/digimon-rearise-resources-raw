@@ -12,6 +12,7 @@ import queue
 import re
 import requests
 import sys
+import tempfile
 import threading
 import traceback
 from urllib3.util.retry import Retry
@@ -105,12 +106,15 @@ def decrypt_repeatedly():
 			if digest != digest_by_path.get(path):
 				os.makedirs(os.path.dirname(path), exist_ok=True)
 				other_path = path_by_digest.get(digest)
-				if other_path is not None:
-					os.link(other_path, path + '.part')
-				else:
-					with open(path + '.part', 'wb') as file:
-						file.write(data)
-				os.replace(path + '.part', path)
+				with tempfile.TemporaryDirectory(dir=os.path.dirname(path),
+				                                 prefix=f'._{posixpath.basename(name)}') as tempdir:
+					temppath = os.path.join(tempdir, posixpath.basename(name))
+					if other_path is not None:
+						os.link(other_path, temppath)
+					else:
+						with open(temppath, 'wb') as file:
+							file.write(data)
+					os.replace(temppath, path)
 				digest_by_path[path] = digest
 				path_by_digest[digest] = path
 		finally:
@@ -207,8 +211,6 @@ for resource_kind, encrypted, split in resource_kinds:
 			raise ValueError('resource path is absolute: ' + resource['name'])
 		if '/.' in resource['name'] or resource['name'].startswith('.'):
 			raise ValueError('resource path contains dot-filenames: ' + resource['name'])
-		if '.part/' in resource['name'] or resource['name'].endswith('.part'):
-			raise ValueError('resource path contains filenames ending in .part: ' + resource['name'])
 		if resource == old_asset_manifest_resources.get(resource['name']):
 			# Sanity check in case a previous instance of this script crashed
 			try:
