@@ -1,5 +1,5 @@
 {
-	"version": "2021-05-18 15:53:21",
+	"version": "2021-05-20 18:54:18",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -2050,6 +2050,13 @@
 			"hash": "96FD8153474C651E31032A88626B9971",
 			"size": 810927,
 			"crc": 2761289711,
+			"dependencies": []
+		},
+		{
+			"name": "action/chr201_unique_skill_xlb",
+			"hash": "9CD06DE08CFBD7B3CF91AA9C4716379A",
+			"size": 812431,
+			"crc": 3238540099,
 			"dependencies": []
 		},
 		{
@@ -12850,6 +12857,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/banner718",
+			"hash": "71D747D39299FEB128ABF62A59BC39E7",
+			"size": 39596,
+			"crc": 3645418400,
+			"dependencies": []
+		},
+		{
 			"name": "banner/bce_banner/bce_banner000",
 			"hash": "4BDAD196D9D5F5943C1F9C2B5F68D665",
 			"size": 229302,
@@ -15653,6 +15667,15 @@
 			"hash": "0A41DE211E6703DF6B65415E6136090F",
 			"size": 60511,
 			"crc": 3673343338,
+			"dependencies": [
+				"action/xlb_death_action"
+			]
+		},
+		{
+			"name": "battle_placement/xlb_battle_placement_chr201",
+			"hash": "ADAA33E9ABC9321B2E550D56B76D1A71",
+			"size": 60618,
+			"crc": 3897424148,
 			"dependencies": [
 				"action/xlb_death_action"
 			]
@@ -50617,6 +50640,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "gasha/top/gasha_asset_292",
+			"hash": "D9444029C36573C310F1F33238F09BA4",
+			"size": 200573,
+			"crc": 2695967396,
+			"dependencies": []
+		},
+		{
 			"name": "home/circle_menu/home_circle_asset000",
 			"hash": "CF2C2392D84020B89C8482DF93EAA64E",
 			"size": 778890,
@@ -62712,6 +62742,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "icon/shopprize/shopprize_evolution72",
+			"hash": "EB46DF547048335F2CB892E015D0978D",
+			"size": 37509,
+			"crc": 1502465,
+			"dependencies": []
+		},
+		{
 			"name": "icon/shopprize/shopprize_evolution74",
 			"hash": "7D2AE990105CF5076C3013B368A7FA9E",
 			"size": 37410,
@@ -63052,6 +63089,34 @@
 			"hash": "3CC2DE5E1656189854EE2D7F87BF50AD",
 			"size": 32657,
 			"crc": 4053350884,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack154",
+			"hash": "EB61E11BAD36CBAE13349A335FE76C9D",
+			"size": 32610,
+			"crc": 3212770396,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack155",
+			"hash": "C020B6A933F16F8D4DC32462B93211CE",
+			"size": 32707,
+			"crc": 2260792348,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack156",
+			"hash": "727414441432720A5994BE5CB527F1BF",
+			"size": 32685,
+			"crc": 2947111919,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack157",
+			"hash": "76F8FFB9327BE40EFDC14CBFC81C308F",
+			"size": 32551,
+			"crc": 3490246749,
 			"dependencies": []
 		},
 		{
@@ -96009,6 +96074,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "xlb/content/xlb_content_chr201",
+			"hash": "95F5B6520DFC462226CD05BC90ABB5C3",
+			"size": 3935,
+			"crc": 3453735755,
+			"dependencies": []
+		},
+		{
 			"name": "xlb/content/xlb_content_chr202",
 			"hash": "A6888B53DCD68FF6E6C2F8482BCC0995",
 			"size": 3951,
@@ -96125,6 +96197,13 @@
 			"hash": "B40BB83FCB08AAB38AE60627C68D042E",
 			"size": 34425,
 			"crc": 292493838,
+			"dependencies": []
+		},
+		{
+			"name": "xlb/icon/xlb_icon_chr201",
+			"hash": "EB849D61BC9E94DB60ED8EA1276577E3",
+			"size": 32910,
+			"crc": 2701517571,
 			"dependencies": []
 		},
 		{
@@ -96258,6 +96337,13 @@
 			"hash": "4852E697D2A502891D79C08CD3BD4094",
 			"size": 29064,
 			"crc": 999623336,
+			"dependencies": []
+		},
+		{
+			"name": "xlb/select/xlb_select_chr201",
+			"hash": "3EAC1D94000AAD4EDB75703BB5F1B5DE",
+			"size": 28294,
+			"crc": 1191510446,
 			"dependencies": []
 		},
 		{
@@ -96412,6 +96498,13 @@
 			"hash": "00E8143398F2510996BB9182F140EB57",
 			"size": 277584,
 			"crc": 1798686018,
+			"dependencies": []
+		},
+		{
+			"name": "xlb/top/xlb_top_008",
+			"hash": "453AEE2B886A32C13C73E427DE7D2FB1",
+			"size": 361529,
+			"crc": 682458752,
 			"dependencies": []
 		}
 	]
