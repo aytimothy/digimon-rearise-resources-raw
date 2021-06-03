@@ -1,5 +1,5 @@
 {
-	"version": "2021-05-26 20:53:28",
+	"version": "2021-06-03 19:01:03",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -12934,6 +12934,20 @@
 			"dependencies": []
 		},
 		{
+			"name": "banner/banner726",
+			"hash": "3F55ED6689239B560D07A73C5C2F7A09",
+			"size": 48085,
+			"crc": 1617613832,
+			"dependencies": []
+		},
+		{
+			"name": "banner/banner731",
+			"hash": "71C191D824065799A65FA4385BC59514",
+			"size": 40508,
+			"crc": 2682647613,
+			"dependencies": []
+		},
+		{
 			"name": "banner/bce_banner/bce_banner000",
 			"hash": "4BDAD196D9D5F5943C1F9C2B5F68D665",
 			"size": 229302,
@@ -17261,6 +17275,15 @@
 			]
 		},
 		{
+			"name": "challenge/challenge_begin_11480",
+			"hash": "6498E973E8A6018F9594BAD874368FF4",
+			"size": 2108,
+			"crc": 3610690369,
+			"dependencies": [
+				"scenario/face/face_icon_f061"
+			]
+		},
+		{
 			"name": "challenge/challenge_bg_000",
 			"hash": "EF90E7FBE3833D89FE36D221CB536665",
 			"size": 504216,
@@ -18734,6 +18757,15 @@
 			"crc": 1482087398,
 			"dependencies": [
 				"scenario/face/face_icon_cn307"
+			]
+		},
+		{
+			"name": "challenge/challenge_bg_11480",
+			"hash": "C89986140C3205BCF122A98D16BCE6EE",
+			"size": 508787,
+			"crc": 4238666790,
+			"dependencies": [
+				"scenario/face/face_icon_f061"
 			]
 		},
 		{
@@ -47044,6 +47076,20 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/whole/digimonbody1366303",
+			"hash": "2C26B5CDCA5CB80816BCAEB211313E79",
+			"size": 57446,
+			"crc": 149144943,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/whole/digimonbody1366304",
+			"hash": "F0593C681B36DF89A49084ECB7B50B03",
+			"size": 72590,
+			"crc": 589890461,
+			"dependencies": []
+		},
+		{
 			"name": "digitama/digitama000",
 			"hash": "4D326AED013D37932277CC6453BC95FD",
 			"size": 23133,
@@ -50968,6 +51014,13 @@
 			"hash": "B9713751642EB73659D8B462BE1CCC94",
 			"size": 200466,
 			"crc": 3018786064,
+			"dependencies": []
+		},
+		{
+			"name": "gasha/top/gasha_asset_296",
+			"hash": "0B5822C06FC07706B562873257051800",
+			"size": 213519,
+			"crc": 3330886602,
 			"dependencies": []
 		},
 		{
@@ -64949,6 +65002,20 @@
 			"hash": "89519CC5DF3E70557EC32FB0B7CECD7F",
 			"size": 33861,
 			"crc": 3480804936,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack491",
+			"hash": "E963B66CC46AA920E94B08B35164B284",
+			"size": 30551,
+			"crc": 3748035738,
+			"dependencies": []
+		},
+		{
+			"name": "icon/shopprize/shopprize_pack492",
+			"hash": "08CD8715717494D37E5DE822DC31A4CE",
+			"size": 30434,
+			"crc": 216961912,
 			"dependencies": []
 		},
 		{
