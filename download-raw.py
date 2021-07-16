@@ -60,6 +60,7 @@ digest_by_path = {}
 path_by_digest = {}
 try:
 	with open('decrypted.blake2b') as file:
+		digest_cache_mtime = os.fstat(file.fileno()).st_mtime_ns
 		for line in file:
 			digest, path = line.rstrip('\n').split('  ', 1)
 			digest_by_path[path] = digest
@@ -72,6 +73,18 @@ except Exception as e:
 	path_by_digest = {}
 
 print_lock = threading.Lock()
+
+def file_needs_overwrite(path, digest):
+	if digest != digest_by_path.get(path):
+		return True
+	try:
+		# Sanity check in case a previous instance of this script crashed
+		return os.stat(path).st_mtime_ns > digest_cache_mtime
+	except OSError:
+		with print_lock:
+			print(f'stat() failed for known file {path}:', file=sys.stderr)
+			traceback.print_exc()
+		return True
 
 n_decrypting_threads = 2
 decryptable_queue = queue.Queue(16)
@@ -103,7 +116,7 @@ def decrypt_repeatedly():
 		else:
 			digest = hashlib.blake2b(data).hexdigest()
 			path = posixpath.join(lang, name)
-			if digest != digest_by_path.get(path):
+			if file_needs_overwrite(path, digest):
 				os.makedirs(os.path.dirname(path), exist_ok=True)
 				other_path = path_by_digest.get(digest)
 				with tempfile.TemporaryDirectory(dir=os.path.dirname(path),
