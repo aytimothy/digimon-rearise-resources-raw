@@ -1,5 +1,5 @@
 {
-	"version": "2021-12-20 21:45:46",
+	"version": "2021-12-25 05:18:04",
 	"resources": [
 		{
 			"name": "action/c031_friendship_skill",
@@ -13909,8 +13909,8 @@
 		{
 			"name": "banner/banner780",
 			"hash": "03074D473F00A8E11D42FDC5568C4906",
-			"size": 49824,
-			"crc": 4290615840,
+			"size": 47892,
+			"crc": 1896219152,
 			"dependencies": []
 		},
 		{
@@ -14002,6 +14002,13 @@
 			"hash": "92B3982062966BCD0B5FFE88F62EBF60",
 			"size": 51103,
 			"crc": 1507158787,
+			"dependencies": []
+		},
+		{
+			"name": "banner/banner802",
+			"hash": "1A2C5CB08CEDE7CC5C7056EBCE3FC6F4",
+			"size": 28188,
+			"crc": 4033195881,
 			"dependencies": []
 		},
 		{
@@ -14491,7 +14498,7 @@
 			"name": "banner/crn_banner_w1820",
 			"hash": "BCD5003F62C8B86132D52A15DE3882D3",
 			"size": 40756,
-			"crc": 3284183413,
+			"crc": 1764720014,
 			"dependencies": []
 		},
 		{
@@ -16525,6 +16532,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "battle_bg/bm_qs021",
+			"hash": "C658F72F20721B244EE71E1DE4EF9760",
+			"size": 1042999,
+			"crc": 2645258567,
+			"dependencies": []
+		},
+		{
 			"name": "battle_bg/bm_qs022_1",
 			"hash": "695289C402C61F2C8254F474DE3C2DAD",
 			"size": 1268325,
@@ -17959,8 +17973,8 @@
 		{
 			"name": "battle_scriptable_object/battle_effect_pattern",
 			"hash": "77A5BAD1D1B312F9161244F1FC424214",
-			"size": 2222099,
-			"crc": 3273341494,
+			"size": 2222102,
+			"crc": 450774102,
 			"dependencies": [
 				"effect/battle/buff_break",
 				"effect/battle/buff_cancel",
@@ -17988,8 +18002,8 @@
 		{
 			"name": "battle_scriptable_object/battle_hit_effect_pattern",
 			"hash": "FBBE03DBAFA84F5B278ED10A8A78F7AA",
-			"size": 149759,
-			"crc": 2074608208,
+			"size": 149756,
+			"crc": 4035650572,
 			"dependencies": [
 				"effect/battle/auto_comeback",
 				"effect/battle/buff",
@@ -18036,8 +18050,8 @@
 		{
 			"name": "battle_scriptable_object/buff_icon_pattern",
 			"hash": "EEF58D5387F5FBDB63B72718AA39B931",
-			"size": 9236,
-			"crc": 3432869997,
+			"size": 9235,
+			"crc": 470241921,
 			"dependencies": [
 				"icon/battlecondition/icon_battlecondition_burn",
 				"icon/battlecondition/icon_battlecondition_darkness",
@@ -18213,8 +18227,8 @@
 		{
 			"name": "bce/top/bce_001",
 			"hash": "5E43F21D20E20FA626D9E9EA5450DFB0",
-			"size": 2722090,
-			"crc": 398622752,
+			"size": 2722109,
+			"crc": 1695810683,
 			"dependencies": [
 				"battle_bg/bm_bce001",
 				"bce/bg/bce_select_bg000"
@@ -18223,8 +18237,8 @@
 		{
 			"name": "bce/top/bce_004",
 			"hash": "D86D631E649959339583000F31E9A461",
-			"size": 4021940,
-			"crc": 3532738142,
+			"size": 4021926,
+			"crc": 1644568652,
 			"dependencies": [
 				"battle_bg/bm_bce002",
 				"bce/bg/bce_select_bg000"
@@ -39086,6 +39100,20 @@
 			"dependencies": []
 		},
 		{
+			"name": "digimon/icon/spiralface2058105",
+			"hash": "05745E3FF1487DC9DB81F0DF2A40C2A9",
+			"size": 30878,
+			"crc": 771148971,
+			"dependencies": []
+		},
+		{
+			"name": "digimon/icon/spiralface2058405",
+			"hash": "4B513908C5B557810D95CAFEBBEB1C70",
+			"size": 33370,
+			"crc": 4231023874,
+			"dependencies": []
+		},
+		{
 			"name": "digimon/icon/unknown000",
 			"hash": "1E349C4F52E8E01458954B506CB1444F",
 			"size": 10210,
@@ -56180,8 +56208,8 @@
 		{
 			"name": "font/en/en",
 			"hash": "2B56EB431411CA64DFC28ADBD7234729",
-			"size": 507505,
-			"crc": 1371885177,
+			"size": 507461,
+			"crc": 3121554403,
 			"dependencies": []
 		},
 		{
@@ -56327,8 +56355,8 @@
 		{
 			"name": "font/en/fot-kafutechnostd-h sdforangegrade",
 			"hash": "2DB7E1DCA060F6B9AF1ECEA66C372E5E",
-			"size": 170874,
-			"crc": 3599906108,
+			"size": 170756,
+			"crc": 1056708265,
 			"dependencies": []
 		},
 		{
@@ -56733,288 +56761,288 @@
 		{
 			"name": "font/ko/ko",
 			"hash": "B22EE800EC782FF34DF7BD2D89A521A6",
-			"size": 12984815,
-			"crc": 1854844538,
+			"size": 12984791,
+			"crc": 1772791392,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdf",
 			"hash": "A679DEA5C174176D170442BA1F845084",
-			"size": 5130856,
-			"crc": 1404553991,
+			"size": 5136782,
+			"crc": 224130267,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfattentiongreen",
 			"hash": "DB83D74D9B7B10AF3162A1F90F6AEDF7",
-			"size": 5082225,
-			"crc": 3649504862,
+			"size": 5087573,
+			"crc": 3706560104,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfattentionred",
 			"hash": "B881FDC0C1C8EDEF4C43D8F8B7AD9EEC",
-			"size": 5082198,
-			"crc": 198546461,
+			"size": 5087541,
+			"crc": 1186964285,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfblackline",
 			"hash": "953FDC7A2AAF477521E26A4B22A82B10",
-			"size": 5079260,
-			"crc": 4151578104,
+			"size": 5084876,
+			"crc": 703420822,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfblueline001",
 			"hash": "7F6AACBFE069DC6D5AA33F7B52F0BB2B",
-			"size": 5079274,
-			"crc": 2140122978,
+			"size": 5084890,
+			"crc": 2712133380,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfbtna",
 			"hash": "853BCDFF61EF8F0D122BD160D74443D9",
-			"size": 5079230,
-			"crc": 594083553,
+			"size": 5084759,
+			"crc": 3638777392,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfbtnb",
 			"hash": "B9D8520E8C347786AD0B421458D463CD",
-			"size": 5079215,
-			"crc": 406780676,
+			"size": 5084746,
+			"crc": 913226492,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfbtnc",
 			"hash": "E087C69A4F92A6433D6490722E531A35",
-			"size": 5079227,
-			"crc": 1607610458,
+			"size": 5084756,
+			"crc": 3712909935,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfcaptiona",
 			"hash": "B33B174648A2C1D1A21BE93D809FE808",
-			"size": 5089321,
-			"crc": 3025135901,
+			"size": 5094123,
+			"crc": 604231733,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfcategorybule",
 			"hash": "992727A4944A0B3C3A850402F1930390",
-			"size": 5092858,
-			"crc": 3857531170,
+			"size": 5097328,
+			"crc": 2347037848,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfcategoryred",
 			"hash": "377969DAE94749DAA5970CA94EDBEFEE",
-			"size": 5092856,
-			"crc": 2180951552,
+			"size": 5097325,
+			"crc": 3390186962,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfeventblue",
 			"hash": "0A4396F8EF23102900ADFD59C3FAFBF5",
-			"size": 5082215,
-			"crc": 2771876944,
+			"size": 5087558,
+			"crc": 1127299421,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfeventgreen",
 			"hash": "956BB7A33BAB5CD0ED91ABBF5088B5F6",
-			"size": 5082213,
-			"crc": 2113060871,
+			"size": 5087556,
+			"crc": 121531273,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfeventpurple",
 			"hash": "D51A15DB20988EF4C07BAA3B8C831537",
-			"size": 5082232,
-			"crc": 2730487603,
+			"size": 5087577,
+			"crc": 334098537,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfeventred",
 			"hash": "6E24F5133A38F67B9BF68ED9CEA62D2D",
-			"size": 5082275,
-			"crc": 1220889666,
+			"size": 5087613,
+			"crc": 3623720522,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfgrayline001",
 			"hash": "B20D4F1390AF02B8B76547594F43B2C0",
-			"size": 5079215,
-			"crc": 3469059260,
+			"size": 5084832,
+			"crc": 1382167723,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfgreenline001",
 			"hash": "34227081D2C9DE062B12A19FFD55C056",
-			"size": 5079278,
-			"crc": 195234268,
+			"size": 5084822,
+			"crc": 2885132131,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfhomemenu",
 			"hash": "3E18B118EB2E43239DC4E9B3A86F6FD0",
-			"size": 5088936,
-			"crc": 249733558,
+			"size": 5093549,
+			"crc": 1205262015,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfmenublueline",
 			"hash": "2A7ED835165CAB1594F6E7B6D0E084C2",
-			"size": 5079276,
-			"crc": 3507468304,
+			"size": 5084820,
+			"crc": 2237057365,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfmenubrownline",
 			"hash": "D7301D0C27822058C00C8C12B3ABDB45",
-			"size": 5079232,
-			"crc": 4127089401,
+			"size": 5084786,
+			"crc": 3438320357,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdforangegrade",
 			"hash": "391F5A4F9C889962E66DA4168A19CEAF",
-			"size": 5096197,
-			"crc": 1606258403,
+			"size": 5100818,
+			"crc": 1085106762,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdforangeline",
 			"hash": "FC55BD1C1C2225FBEB2766038A892904",
-			"size": 5079290,
-			"crc": 3399433159,
+			"size": 5084906,
+			"crc": 2416687960,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfperformance001",
 			"hash": "F4FEB22829E326BBC2F5671CE36ED239",
-			"size": 5082204,
-			"crc": 2046439713,
+			"size": 5087551,
+			"crc": 7135949,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfpurpleline",
 			"hash": "8F6FA461ABDFB8E13C29DAF2D8D1625F",
-			"size": 5079230,
-			"crc": 782530196,
+			"size": 5084843,
+			"crc": 2785358351,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfredline001",
 			"hash": "63A44DEAC9B313AE89F79D905AEB9D21",
-			"size": 5079212,
-			"crc": 2502477676,
+			"size": 5084830,
+			"crc": 1028206515,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfredlineshadow",
 			"hash": "F87B8377A95FF0FE406AA2EF7F27C581",
-			"size": 5082267,
-			"crc": 715563887,
+			"size": 5087612,
+			"crc": 232666749,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfshadow",
 			"hash": "DF80EE1138A6597E07706EA3A25D6531",
-			"size": 5081973,
-			"crc": 543520349,
+			"size": 5087320,
+			"crc": 2361724010,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfshadowoutline",
 			"hash": "B9B88A312FE80AE35A02964C8587B3A6",
-			"size": 5082185,
-			"crc": 2170292772,
+			"size": 5087532,
+			"crc": 1659905109,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfskyblueline",
 			"hash": "C4D3850518CA763B225D8DE660D78981",
-			"size": 5079233,
-			"crc": 1741613606,
+			"size": 5084853,
+			"crc": 2689597999,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arnewheib5heavy sdfwhiteline",
 			"hash": "0E4FD8D8B704C53F8293A4FD3B8B030D",
-			"size": 5079258,
-			"crc": 947014435,
+			"size": 5084873,
+			"crc": 465803199,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdf",
 			"hash": "9AF0EBBE0438DEF52F9C70B21C44666F",
-			"size": 4368432,
-			"crc": 600403114,
+			"size": 4384048,
+			"crc": 116776464,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfblackline",
 			"hash": "82D2CE2E747E0C6AF31F83747F2F4190",
-			"size": 4317166,
-			"crc": 1618960493,
+			"size": 4332877,
+			"crc": 2193270942,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfhomemenu",
 			"hash": "19362DB55729622B8D5BC8BFD243847A",
-			"size": 4318951,
-			"crc": 3022491975,
+			"size": 4335105,
+			"crc": 1815799845,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdforangelineshadow",
 			"hash": "D4F5F73302D8190FF283225FA87BEB0D",
-			"size": 4318916,
-			"crc": 1282347084,
+			"size": 4334935,
+			"crc": 4093641810,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfshadow",
 			"hash": "BCBBD3DF3B9C42D8883BF69A8FEED42E",
-			"size": 4318768,
-			"crc": 2146444739,
+			"size": 4334881,
+			"crc": 3128553095,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfshadow_r",
 			"hash": "3D6312B8D6FA683B50692A3A1DE217BC",
-			"size": 4318810,
-			"crc": 3199131419,
+			"size": 4334939,
+			"crc": 1760365701,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfshadowoutline",
 			"hash": "AF9F6FF4AD82FAD7A9860CA1A09B32E5",
-			"size": 4318906,
-			"crc": 2016824524,
+			"size": 4334985,
+			"crc": 3402188224,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfwhiteline",
 			"hash": "C1D08835A5F1B3EADEDEEAD250784CEE",
-			"size": 4317152,
-			"crc": 2107707465,
+			"size": 4332863,
+			"crc": 4214345,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/fotc-arshuyuanheib5medium sdfyellowgrade01",
 			"hash": "BAE462FA9AA48990F34D51938CDE2274",
-			"size": 4326015,
-			"crc": 2407636119,
+			"size": 4341685,
+			"crc": 3303662541,
 			"dependencies": []
 		},
 		{
 			"name": "font/zh/zh",
 			"hash": "960820768E69586C42E77C779D5B5C35",
-			"size": 9650547,
-			"crc": 2063104893,
+			"size": 9676911,
+			"crc": 2880950538,
 			"dependencies": []
 		},
 		{
@@ -59631,8 +59659,8 @@
 		{
 			"name": "gasha/top/gasha_asset_322",
 			"hash": "048F111E9C2799A3B86E12CFA1608F7A",
-			"size": 192122,
-			"crc": 1210929911,
+			"size": 193068,
+			"crc": 2623701086,
 			"dependencies": []
 		},
 		{
@@ -84773,6 +84801,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "quest/map/map_s2_section18",
+			"hash": "93BBE4BB70B71CA660BB8338F8907CB5",
+			"size": 4916390,
+			"crc": 1697432817,
+			"dependencies": []
+		},
+		{
 			"name": "quest/map/map_section1",
 			"hash": "CB40A11CF479BED7A9F059CC12287FC1",
 			"size": 1544439,
@@ -85907,6 +85942,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "quest/panel/panel_s2_section18",
+			"hash": "233B524A5D0B7EB6B2E8E9AF8BFC152A",
+			"size": 93707,
+			"crc": 63413524,
+			"dependencies": []
+		},
+		{
 			"name": "quest/panel/panel_s2_section2",
 			"hash": "76DA3CACA29B9D5908A548866EAF0992",
 			"size": 151251,
@@ -86495,6 +86537,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "quest/panel/storylist_bg046",
+			"hash": "DEDD09FDD203CE4BD7D215FD4710992A",
+			"size": 64880,
+			"crc": 88067462,
+			"dependencies": []
+		},
+		{
 			"name": "quest/panel/storylist_raid001",
 			"hash": "9AB424017D0A072C338B00967939E5C9",
 			"size": 59308,
@@ -86716,6 +86765,13 @@
 			"hash": "A7D4FA6774C494ACBA4DC51E6C376293",
 			"size": 87388,
 			"crc": 537507988,
+			"dependencies": []
+		},
+		{
+			"name": "quest/symbol/symbol_map_icon017",
+			"hash": "AE7876A58FB4E1B0391D7F97E4FC31A5",
+			"size": 86488,
+			"crc": 305482255,
 			"dependencies": []
 		},
 		{
@@ -89718,8 +89774,8 @@
 		{
 			"name": "scenario/background/bg_b097",
 			"hash": "A6D471ACA9BB75ACAAA3A52D9700C633",
-			"size": 118111,
-			"crc": 4231754295,
+			"size": 118117,
+			"crc": 341017496,
 			"dependencies": []
 		},
 		{
@@ -89816,8 +89872,8 @@
 		{
 			"name": "scenario/background/bg_b115",
 			"hash": "B3FF5F7F86DD0F62B33FE7C48142D163",
-			"size": 95469,
-			"crc": 914112335,
+			"size": 100480,
+			"crc": 483837292,
 			"dependencies": []
 		},
 		{
@@ -92506,6 +92562,27 @@
 			"hash": "E9A7540300148402B9BFC123D8EBB3DC",
 			"size": 1058105,
 			"crc": 4039245835,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/character/charachr214_e01_attack",
+			"hash": "CF54A7BAC96979CB64D59A7F259F76DB",
+			"size": 468218,
+			"crc": 3313646082,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/character/charachr214_e01_damage",
+			"hash": "53D767E97088EDAFE1DCA39C1B93214B",
+			"size": 578614,
+			"crc": 1615356098,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/character/charachr214_e01_normal",
+			"hash": "0312BF29AD87DC66CF9F70CDA18E5609",
+			"size": 543433,
+			"crc": 32717953,
 			"dependencies": []
 		},
 		{
@@ -97717,6 +97794,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "scenario/character/charaeiji2_casual_angry_close",
+			"hash": "0C371044DB01D13CC59C25EABB77456E",
+			"size": 120048,
+			"crc": 1072035645,
+			"dependencies": []
+		},
+		{
 			"name": "scenario/character/charaeiji2_casual_proud",
 			"hash": "168A1DA170A30DF53B8BEA698D3B5B6F",
 			"size": 169973,
@@ -97728,6 +97812,13 @@
 			"hash": "0D789BD2912F1120073D698127D362B6",
 			"size": 134805,
 			"crc": 757608842,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/character/charaeiji2_casual_smile1_close",
+			"hash": "5F829D9498ECB1EE2CAE1C3A7A34984A",
+			"size": 123338,
+			"crc": 81156442,
 			"dependencies": []
 		},
 		{
@@ -98508,6 +98599,13 @@
 			"dependencies": []
 		},
 		{
+			"name": "scenario/character/charamon1_sad_close",
+			"hash": "BE0750A0CDA26469ED8C92D2345C929D",
+			"size": 182780,
+			"crc": 948949595,
+			"dependencies": []
+		},
+		{
 			"name": "scenario/character/charamon1_surprise",
 			"hash": "7DFF9DB9AF9C62FC0886F1EA375764C3",
 			"size": 192296,
@@ -98519,6 +98617,13 @@
 			"hash": "D9AA3F8859D850204A379698CD75FC78",
 			"size": 153237,
 			"crc": 3884950565,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/character/charamon2_sad",
+			"hash": "321848E6C2977C61B18F5E24F2311B18",
+			"size": 184069,
+			"crc": 49815010,
 			"dependencies": []
 		},
 		{
@@ -99898,6 +100003,20 @@
 			"hash": "A03CF676556DE76B70CD8F605DEBD0BD",
 			"size": 63465,
 			"crc": 1096974896,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/effect/effect_flashback001_gray",
+			"hash": "91AD1430E8DC9B2D8F355312F9FEC543",
+			"size": 76148,
+			"crc": 617398778,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/effect/effect_flashback001_gray_koma",
+			"hash": "36DB63B765A6144B0DB4372CEE28BD71",
+			"size": 67775,
+			"crc": 1212142865,
 			"dependencies": []
 		},
 		{
@@ -107944,6 +108063,97 @@
 			"dependencies": []
 		},
 		{
+			"name": "scenario/scenario/ss18_1_zh",
+			"hash": "1E3DB2C806D87E3E6B81D9594CD145BB",
+			"size": 5916,
+			"crc": 3940681771,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_2_zh",
+			"hash": "D73673BB1CBB45BAA3D42D1A51ED5C3A",
+			"size": 8397,
+			"crc": 291562177,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_3_zh",
+			"hash": "ACCF0B006AE3AB756F5D4C69C2F80B44",
+			"size": 6338,
+			"crc": 3645075678,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_4_zh",
+			"hash": "088097D98CE14B46C30CB3DD33D2576C",
+			"size": 8371,
+			"crc": 4033635985,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_5_zh",
+			"hash": "F2721367D25B773A54883DB47AF1D415",
+			"size": 6425,
+			"crc": 3541432674,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_6_zh",
+			"hash": "6FB0C351553495A8B229F2E0D670EF6D",
+			"size": 9010,
+			"crc": 4221848302,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_7_zh",
+			"hash": "1A8B484F1DE2B15532A318D8DCE5FD5A",
+			"size": 12925,
+			"crc": 4006700096,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_8_zh",
+			"hash": "84D2116415492DBBDEE25E1BBB421043",
+			"size": 11046,
+			"crc": 3142714128,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_b1_zh",
+			"hash": "F6D63190913C0BF2F40BAB0C924B2749",
+			"size": 2681,
+			"crc": 1821856126,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_b2_zh",
+			"hash": "FC5C61C93145B0F05D17CDFC610508EB",
+			"size": 2495,
+			"crc": 3925208742,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_b3_zh",
+			"hash": "77FEEBCAF3BC09BA0002BD2D99F24937",
+			"size": 2475,
+			"crc": 2991852376,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_b4_zh",
+			"hash": "D5C3B8113C55EF90AB88FD3AD09E851C",
+			"size": 2443,
+			"crc": 1903317644,
+			"dependencies": []
+		},
+		{
+			"name": "scenario/scenario/ss18_b5_zh",
+			"hash": "19A55360BFB1F067CF4FC72C7A279394",
+			"size": 2605,
+			"crc": 2648891322,
+			"dependencies": []
+		},
+		{
 			"name": "scenario/scenario/ss1_1_zh",
 			"hash": "1D6FD70E325502C57E6B4F75BB084CA5",
 			"size": 5580,
@@ -109526,8 +109736,8 @@
 		{
 			"name": "section/dfq_section_skin007",
 			"hash": "CF36A1E49451AF3675814B597C5CF0FE",
-			"size": 2072,
-			"crc": 3491653804,
+			"size": 2074,
+			"crc": 1388043126,
 			"dependencies": [
 				"quest/panel/dfq_panel_section7",
 				"quest/panel/info_scenariobg01"
@@ -109536,8 +109746,8 @@
 		{
 			"name": "section/dfq_section_skin007_ex1",
 			"hash": "D0BFCE91E09A21A5F4D2BE32F1388056",
-			"size": 2074,
-			"crc": 3536654130,
+			"size": 2077,
+			"crc": 1262906545,
 			"dependencies": [
 				"quest/panel/dfq_panel_section7_ex1",
 				"quest/panel/info_scenariobg01"
@@ -109546,8 +109756,8 @@
 		{
 			"name": "section/dfq_section_skin007_ex2",
 			"hash": "17962CA1D1A302CEC6F5B638FB9CC6DF",
-			"size": 2078,
-			"crc": 377712129,
+			"size": 2081,
+			"crc": 52648294,
 			"dependencies": [
 				"quest/panel/dfq_panel_section7_ex2",
 				"quest/panel/info_scenariobg01"
@@ -109556,8 +109766,8 @@
 		{
 			"name": "section/dfq_section_skin008",
 			"hash": "95E074C600D57BC4881011356FA88139",
-			"size": 2069,
-			"crc": 3432618451,
+			"size": 2070,
+			"crc": 3024806575,
 			"dependencies": [
 				"quest/panel/dfq_panel_section8",
 				"quest/panel/info_scenariobg01"
@@ -109566,8 +109776,8 @@
 		{
 			"name": "section/dfq_section_skin008_ex1",
 			"hash": "A322CC2C783466052DF2310427B732E7",
-			"size": 2076,
-			"crc": 3564227391,
+			"size": 2079,
+			"crc": 1399430425,
 			"dependencies": [
 				"quest/panel/dfq_panel_section8_ex1",
 				"quest/panel/info_scenariobg01"
@@ -109576,8 +109786,8 @@
 		{
 			"name": "section/dfq_section_skin008_ex2",
 			"hash": "AC296EFF04F94884CFCC0EF327EF12B1",
-			"size": 2077,
-			"crc": 905310425,
+			"size": 2080,
+			"crc": 791821499,
 			"dependencies": [
 				"quest/panel/dfq_panel_section8_ex2",
 				"quest/panel/info_scenariobg01"
@@ -109586,8 +109796,8 @@
 		{
 			"name": "section/dfq_section_skin010",
 			"hash": "7F6E2E8D5D382A370DBC22BC74465E2D",
-			"size": 2068,
-			"crc": 1288400948,
+			"size": 2071,
+			"crc": 2033093339,
 			"dependencies": [
 				"quest/panel/dfq_panel_section10",
 				"quest/panel/info_scenariobg01"
@@ -109596,8 +109806,8 @@
 		{
 			"name": "section/dfq_section_skin010_ex1",
 			"hash": "A90F8FB8FB755C32695554E90B6229A9",
-			"size": 2079,
-			"crc": 986341269,
+			"size": 2083,
+			"crc": 3306116820,
 			"dependencies": [
 				"quest/panel/dfq_panel_section10_ex1",
 				"quest/panel/info_scenariobg01"
@@ -109606,8 +109816,8 @@
 		{
 			"name": "section/dfq_section_skin010_ex2",
 			"hash": "0AE8EE718621466B8FA649C47BC407B1",
-			"size": 2078,
-			"crc": 2177438816,
+			"size": 2082,
+			"crc": 2851409429,
 			"dependencies": [
 				"quest/panel/dfq_panel_section10_ex2",
 				"quest/panel/info_scenariobg01"
@@ -110386,10 +110596,21 @@
 			]
 		},
 		{
+			"name": "section/section_skin_s2_018",
+			"hash": "0FEA22E4314D06B439DFE9C1FC67C7FD",
+			"size": 2132,
+			"crc": 3744417154,
+			"dependencies": [
+				"quest/panel/info_scenariobg01",
+				"quest/panel/panel_common",
+				"quest/panel/panel_s2_section18"
+			]
+		},
+		{
 			"name": "section/ss_section_skin001_g3858",
 			"hash": "4257204231F2ACA84DC2C40D825589F5",
-			"size": 2084,
-			"crc": 3516567161,
+			"size": 2086,
+			"crc": 1900868958,
 			"dependencies": [
 				"quest/panel/ss_panel_section1_g3858",
 				"quest/panel/storylist_bg012"
