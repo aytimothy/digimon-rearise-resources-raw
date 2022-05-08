@@ -4,6 +4,7 @@ import argparse
 import base64
 from collections import deque
 from Crypto.Cipher import AES, XOR
+import fcntl
 import hashlib
 import json
 import os
@@ -17,6 +18,16 @@ import threading
 import traceback
 from urllib3.util.retry import Retry
 import zlib
+
+if hasattr(fcntl, 'F_FULLFSYNC'):
+	def fsync(file):
+		try:
+			fcntl.fcntl(file.fileno(), fcntl.F_FULLFSYNC)
+		except OSError:
+			os.fsync(file.fileno())
+else:
+	def fsync(file):
+		os.fsync(file.fileno())
 
 KEY = b'fK%Bcy6EgzAQsR-a/LNDUt!cAZNG97a&'
 def decrypt_aes(data):
@@ -127,6 +138,8 @@ def decrypt_repeatedly():
 					else:
 						with open(temppath, 'wb') as file:
 							file.write(data)
+							file.flush()
+							fsync(file)
 					os.replace(temppath, path)
 				digest_by_path[path] = digest
 				path_by_digest[digest] = path
@@ -274,10 +287,14 @@ for t in decrypting_threads:
 
 for resource_kind, encrypted, split in resource_kinds:
 	path = os.path.join(lang, resource_kind, 'manifest')
+	with open(path + '.part', 'r+b') as file:
+		fsync(file)
 	os.replace(path + '.part', path)
 
 path = 'decrypted.blake2b'
 with open(path + '.part', 'w', encoding='utf-8') as file:
 	for digested_path, digest in sorted(digest_by_path.items()):
 		print(f'{digest}  {digested_path}', file=file)
+	file.flush()
+	fsync(file)
 os.replace(path + '.part', path)
