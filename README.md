@@ -22,10 +22,14 @@ They both write data to this folder. As you've already noticed, the manifest is 
 
 ### download-raw
 
-    python download-raw.py [--global <en/ko/zh>]
+    python download-raw.py [--global <en/ko/zh>] <cache-key>
 
 Run `download-raw.py` on its own to download from the Japanese server.  
 Run `download.raw.py` with the `--global <lang>` option to download from the global servers.
+
+The `cache-key` is the version number of the assets. The commit messages in this repository contain the "cache key" you need for each specific version of the files.
+
+If you are using PyCharm, the key numbers have already been slotted into the configurations.
 
 ### download-repo
 
