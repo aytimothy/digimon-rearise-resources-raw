@@ -49,10 +49,10 @@ en_sound_en_manifest = json.load(open("./en/sound/en/manifest", "r"))
 en_sound_jp_manifest = json.load(open("./en/sound/jp/manifest", "r"))
 en_movie_en_manifest = json.load(open("./en/movie/en/manifest", "r"))
 en_movie_jp_manifest = json.load(open("./en/movie/jp/manifest", "r"))
-jp_asset_android_manifest = json.load(open("./jp/asset/android/manifest", "r"))
-jp_asset_ios_manifest = json.load(open("./jp/asset/ios/manifest", "r"))
-jp_movie_manifest = json.load(open("./jp/movie/manifest", "r"))
-jp_sound_manifest = json.load(open("./jp/sound/manifest", "r"))
+jp_asset_android_manifest = json.load(open("./ja/asset/android/manifest", "r"))
+jp_asset_ios_manifest = json.load(open("./ja/asset/ios/manifest", "r"))
+jp_movie_manifest = json.load(open("./ja/movie/manifest", "r"))
+jp_sound_manifest = json.load(open("./ja/sound/manifest", "r"))
 ko_asset_android_manifest = json.load(open("./ko/asset/android/manifest", "r"))
 ko_asset_ios_manifest = json.load(open("./ko/asset/ios/manifest", "r"))
 ko_sound_en_manifest = json.load(open("./ko/sound/en/manifest", "r"))
@@ -72,12 +72,18 @@ def recurse_dir(path):
     table_rows = [row.find_all('a') for row in repo_parser.find_all('table')[0].find_all('tr')[3:-1]]
     directories = [row for row in table_rows if row[0].find_all('img')[0].get('alt') == '[DIR]']
     files = [row for row in table_rows if row[0].find_all('img')[0].get('alt') != '[DIR]']
+    if not os.path.exists("./" + path):
+        os.mkdir("./" + path)
+        print("Creating Directory: " + path)
     for file_row in files:
         file_path = path + file_row[0].get('href')
         file_req = requests.get(repo + file_path)
         if not encrypt:
-            print("Saving: " + repo + file_path + "...")
-            open("./" + file_path, 'wb').write(file_req.content)
+            if os.path.exists("./" + file_path):
+                print("Skipping: " + repo + file_path + " because it already exists...")
+            else:
+                print("Saving: " + repo + file_path + "...")
+                open("./" + file_path, 'wb').write(file_req.content)
         else:
             file_path_split = file_path.split("/")
             isRegularPath = len(file_path_split) < 3
@@ -159,7 +165,7 @@ def recurse_dir(path):
                     print("Saving: " + file_path + " as " + manifest_entry[0]["hash"] + "...")
 
     for dir_row in directories:
-        inner_path = dir_row[0].get('href')
+        inner_path = path + dir_row[0].get('href')
         recurse_dir(inner_path)
         if not encrypt:
             if not os.path.exists("./" + inner_path):
