@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 
+import platform
+
+is_linux = platform.system().lower().startswith('lin')
+
 import argparse
 import base64
 from Crypto.Cipher import AES
 from Crypto.Util.strxor import strxor as XOR
-import fcntl
+if is_linux:
+	import fcntl
 import hashlib
 import json
 import os
@@ -19,15 +24,16 @@ import traceback
 from urllib3.util.retry import Retry
 import zlib
 
-if hasattr(fcntl, 'F_FULLFSYNC'):
-	def fsync(file):
-		try:
-			fcntl.fcntl(file.fileno(), fcntl.F_FULLFSYNC)
-		except OSError:
+if is_linux:
+	if hasattr(fcntl, 'F_FULLFSYNC'):
+		def fsync(file):
+			try:
+				fcntl.fcntl(file.fileno(), fcntl.F_FULLFSYNC)
+			except OSError:
+				os.fsync(file.fileno())
+	else:
+		def fsync(file):
 			os.fsync(file.fileno())
-else:
-	def fsync(file):
-		os.fsync(file.fileno())
 
 KEY = b'fK%Bcy6EgzAQsR-a/LNDUt!cAZNG97a&'
 def decrypt_aes(data):
