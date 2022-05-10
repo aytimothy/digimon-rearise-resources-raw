@@ -2,8 +2,8 @@
 
 import argparse
 import base64
-from collections import deque
-from Crypto.Cipher import AES, XOR
+from Crypto.Cipher import AES
+from Crypto.Util.strxor import strxor as XOR
 import fcntl
 import hashlib
 import json
@@ -34,7 +34,7 @@ def decrypt_aes(data):
 	plaintext = AES.new(KEY, AES.MODE_CBC, data[2:18]).decrypt(data[20:])
 	return plaintext[:-plaintext[-1]]
 def decrypt_xor(data):
-	return XOR.new(KEY).decrypt(data)
+	return XOR(data, KEY)
 
 session = requests.Session()
 retry = Retry(total=20, backoff_factor=0.01, status_forcelist=[502], allowed_methods=False)
