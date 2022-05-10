@@ -35,12 +35,17 @@ if is_linux:
 		def fsync(file):
 			os.fsync(file.fileno())
 
+pad = b'\x00'
 KEY = b'fK%Bcy6EgzAQsR-a/LNDUt!cAZNG97a&'
 def decrypt_aes(data):
 	plaintext = AES.new(KEY, AES.MODE_CBC, data[2:18]).decrypt(data[20:])
 	return plaintext[:-plaintext[-1]]
 def decrypt_xor(data):
-	return XOR(data, KEY)
+	_data = bytearray(data)
+	while len(_data) % 16 != 0:
+		_data.extend(pad)
+	_key = bytearray(KEY) * (len(_data) / len(KEY))
+	return XOR(_data, KEY)
 
 session = requests.Session()
 retry = Retry(total=20, backoff_factor=0.01, status_forcelist=[502], allowed_methods=False)
