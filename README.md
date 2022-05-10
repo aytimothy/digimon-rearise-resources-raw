@@ -15,7 +15,7 @@ If you want to download the assets, Chortos has stored a repository of the files
 
 There are two main scripts:
 
-  * `download-raw.py` - Downloads game asset data from the Official Servers (though that has been shut down since).
+  * `download-raw.py` - Downloads game asset data from the Official Servers ~~(though that has been shut down since)~~
   * `download-repo.py` - Downloads game asset data from Chortos' store
 
 They both write data to this folder. As you've already noticed, the manifest is already provided as we *can't* store the whole shebang on GitHub.
