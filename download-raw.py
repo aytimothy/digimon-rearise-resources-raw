@@ -13,6 +13,7 @@ if is_linux:
 import hashlib
 import json
 import os
+from os import fsync
 import posixpath
 import queue
 import re
@@ -42,10 +43,10 @@ def decrypt_aes(data):
 	return plaintext[:-plaintext[-1]]
 def decrypt_xor(data):
 	_data = bytearray(data)
-	while len(_data) % 16 != 0:
+	while len(_data) % len(KEY) != 0:
 		_data.extend(pad)
-	_key = bytearray(KEY) * (len(_data) / len(KEY))
-	return XOR(_data, KEY)
+	_key = bytearray(KEY) * int(len(_data) / len(KEY))
+	return XOR(_data, _key)
 
 session = requests.Session()
 retry = Retry(total=20, backoff_factor=0.01, status_forcelist=[502], allowed_methods=False)
